@@ -1,0 +1,2162 @@
+08:44:39 **** Build of project ucos_test_intr_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_0/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_common_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_common_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_cpu_cortexa9_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_cpu_cortexa9_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_emacps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_emacps_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_osiii_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_osiii_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_scuc_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scuc_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_scugic_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scugic_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_scutimer_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scutimer_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_standalone_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_standalone_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_ttcps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_ttcps_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_uartps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_uartps_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_usbps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_usbps_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_0/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axidma"
+In file included from xaxidma.h:470:0,
+                 from xaxidma.c:83:
+xaxidma.c: In function 'XAxiDma_Reset':
+xaxidma_bdring.h:238:26: warning: assignment makes pointer from integer without a cast
+    (RingPtr)->BdaRestart =      \
+                          ^
+xaxidma.c:313:3: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+   XAxiDma_BdRingSnapShotCurrBd(TxRingPtr);
+   ^
+xaxidma_bdring.h:243:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:313:3: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+   XAxiDma_BdRingSnapShotCurrBd(TxRingPtr);
+   ^
+xaxidma_bdring.h:248:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:313:3: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+   XAxiDma_BdRingSnapShotCurrBd(TxRingPtr);
+   ^
+xaxidma_bdring.h:238:26: warning: assignment makes pointer from integer without a cast
+    (RingPtr)->BdaRestart =      \
+                          ^
+xaxidma.c:319:4: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+    XAxiDma_BdRingSnapShotCurrBd(RxRingPtr);
+    ^
+xaxidma_bdring.h:243:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:319:4: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+    XAxiDma_BdRingSnapShotCurrBd(RxRingPtr);
+    ^
+xaxidma_bdring.h:248:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:319:4: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+    XAxiDma_BdRingSnapShotCurrBd(RxRingPtr);
+    ^
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_common_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_common_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uC/OS Common Components"
+c:\xilinx\sdk\2015.4\gnu\arm\nt\bin\../lib/gcc/arm-xilinx-eabi/4.9.2/../../../../arm-xilinx-eabi/bin/ar.exe: creating ../../../lib/libucos.a
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_cpu_cortexa9_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_cpu_cortexa9_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_emacps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_emacps_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_scuc"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_osiii_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_osiii_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uC/OS-III"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_scuc_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scuc_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_l2cachec"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_scugic_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scugic_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_scutimer_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scutimer_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_standalone_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_standalone_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_ttcps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_ttcps_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_uartps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_uartps_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_usbps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_usbps_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uC/OS"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+08:45:26 **** Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_test_intr.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_test_intr_bsp/ps7_cortexa9_0/lib -o "ucos_test_intr.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_test_intr.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_test_intr.elf  |tee "ucos_test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  58640	     20	  34528	  93188	  16c04	ucos_test_intr.elf
+'Finished building: ucos_test_intr.elf.size'
+' '
+08:45:53 **** Auto Build of project ucos_test_intr_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_0/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_common_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_common_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_cpu_cortexa9_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_cpu_cortexa9_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_emacps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_emacps_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_osiii_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_osiii_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_scuc_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scuc_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_scugic_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scugic_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_scutimer_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scutimer_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_standalone_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_standalone_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_ttcps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_ttcps_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_uartps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_uartps_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_usbps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_usbps_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_0/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axidma"
+In file included from xaxidma.h:470:0,
+                 from xaxidma.c:83:
+xaxidma.c: In function 'XAxiDma_Reset':
+xaxidma_bdring.h:238:26: warning: assignment makes pointer from integer without a cast
+    (RingPtr)->BdaRestart =      \
+                          ^
+xaxidma.c:313:3: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+   XAxiDma_BdRingSnapShotCurrBd(TxRingPtr);
+   ^
+xaxidma_bdring.h:243:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:313:3: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+   XAxiDma_BdRingSnapShotCurrBd(TxRingPtr);
+   ^
+xaxidma_bdring.h:248:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:313:3: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+   XAxiDma_BdRingSnapShotCurrBd(TxRingPtr);
+   ^
+xaxidma_bdring.h:238:26: warning: assignment makes pointer from integer without a cast
+    (RingPtr)->BdaRestart =      \
+                          ^
+xaxidma.c:319:4: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+    XAxiDma_BdRingSnapShotCurrBd(RxRingPtr);
+    ^
+xaxidma_bdring.h:243:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:319:4: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+    XAxiDma_BdRingSnapShotCurrBd(RxRingPtr);
+    ^
+xaxidma_bdring.h:248:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:319:4: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+    XAxiDma_BdRingSnapShotCurrBd(RxRingPtr);
+    ^
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_common_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_common_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uC/OS Common Components"
+c:\xilinx\sdk\2015.4\gnu\arm\nt\bin\../lib/gcc/arm-xilinx-eabi/4.9.2/../../../../arm-xilinx-eabi/bin/ar.exe: creating ../../../lib/libucos.a
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_cpu_cortexa9_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_cpu_cortexa9_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_emacps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_emacps_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_scuc"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_osiii_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_osiii_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uC/OS-III"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_scuc_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scuc_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_l2cachec"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_scugic_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scugic_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_scutimer_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scutimer_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_standalone_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_standalone_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_ttcps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_ttcps_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_uartps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_uartps_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_usbps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_usbps_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uC/OS"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+08:46:39 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_test_intr.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_test_intr_bsp/ps7_cortexa9_0/lib -o "ucos_test_intr.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_test_intr.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_test_intr.elf  |tee "ucos_test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61144	     40	  34576	  95760	  17610	ucos_test_intr.elf
+'Finished building: ucos_test_intr.elf.size'
+' '
+08:47:26 **** Incremental Build of configuration Debug for project ucos_test_intr ****
+make all 
+make: Rien à faire pour « all ».
+09:07:44 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_test_intr.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_test_intr_bsp/ps7_cortexa9_0/lib -o "ucos_test_intr.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_test_intr.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_test_intr.elf  |tee "ucos_test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61144	     40	  39024	 100208	  18770	ucos_test_intr.elf
+'Finished building: ucos_test_intr.elf.size'
+' '
+09:11:28 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c:84:1: error: unknown type name 'nt'
+ nt  DMA_Intr_Init(XAxiDma *DMAPtr,u32 DeviceId);
+ ^
+../src/app.c: In function 'MainTask':
+../src/app.c:138:5: error: 'Timer0' undeclared (first use in this function)
+     Timer0 = AXITimer_Init(0);
+     ^
+../src/app.c:138:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/app.c:138:5: warning: implicit declaration of function 'AXITimer_Init' [-Wimplicit-function-declaration]
+../src/app.c:139:5: warning: implicit declaration of function 'AXITimer_OptSet' [-Wimplicit-function-declaration]
+     AXITimer_OptSet(Timer0, 0, AXITIMER_OPT_DOWN | AXITIMER_OPT_AUTO_RELOAD | AXITIMER_OPT_INT);
+     ^
+../src/app.c:139:32: error: 'AXITIMER_OPT_DOWN' undeclared (first use in this function)
+     AXITimer_OptSet(Timer0, 0, AXITIMER_OPT_DOWN | AXITIMER_OPT_AUTO_RELOAD | AXITIMER_OPT_INT);
+                                ^
+../src/app.c:139:52: error: 'AXITIMER_OPT_AUTO_RELOAD' undeclared (first use in this function)
+     AXITimer_OptSet(Timer0, 0, AXITIMER_OPT_DOWN | AXITIMER_OPT_AUTO_RELOAD | AXITIMER_OPT_INT);
+                                                    ^
+../src/app.c:139:79: error: 'AXITIMER_OPT_INT' undeclared (first use in this function)
+     AXITimer_OptSet(Timer0, 0, AXITIMER_OPT_DOWN | AXITIMER_OPT_AUTO_RELOAD | AXITIMER_OPT_INT);
+                                                                               ^
+../src/app.c:140:5: warning: implicit declaration of function 'AXITimer_LoadSet' [-Wimplicit-function-declaration]
+     AXITimer_LoadSet(Timer0, 0, 100000000);
+     ^
+../src/app.c:141:5: warning: implicit declaration of function 'AXITimer_CallbackSet' [-Wimplicit-function-declaration]
+     AXITimer_CallbackSet(Timer0, 0, Timer0ISR);
+     ^
+../src/app.c:142:5: warning: implicit declaration of function 'AXITimer_Start' [-Wimplicit-function-declaration]
+     AXITimer_Start(Timer0, 0);
+     ^
+../src/app.c:144:5: warning: implicit declaration of function 'XTmrCtr_Initialize' [-Wimplicit-function-declaration]
+     XTmrCtr_Initialize(&Timer1, 0);
+     ^
+../src/app.c:144:25: error: 'Timer1' undeclared (first use in this function)
+     XTmrCtr_Initialize(&Timer1, 0);
+                         ^
+../src/app.c:145:5: warning: implicit declaration of function 'XTmrCtr_SetOptions' [-Wimplicit-function-declaration]
+     XTmrCtr_SetOptions(&Timer1, 0, XTC_DOWN_COUNT_OPTION | XTC_AUTO_RELOAD_OPTION | XTC_INT_MODE_OPTION);
+     ^
+../src/app.c:145:36: error: 'XTC_DOWN_COUNT_OPTION' undeclared (first use in this function)
+     XTmrCtr_SetOptions(&Timer1, 0, XTC_DOWN_COUNT_OPTION | XTC_AUTO_RELOAD_OPTION | XTC_INT_MODE_OPTION);
+                                    ^
+../src/app.c:145:60: error: 'XTC_AUTO_RELOAD_OPTION' undeclared (first use in this function)
+     XTmrCtr_SetOptions(&Timer1, 0, XTC_DOWN_COUNT_OPTION | XTC_AUTO_RELOAD_OPTION | XTC_INT_MODE_OPTION);
+                                                            ^
+../src/app.c:145:85: error: 'XTC_INT_MODE_OPTION' undeclared (first use in this function)
+     XTmrCtr_SetOptions(&Timer1, 0, XTC_DOWN_COUNT_OPTION | XTC_AUTO_RELOAD_OPTION | XTC_INT_MODE_OPTION);
+                                                                                     ^
+../src/app.c:146:5: warning: implicit declaration of function 'XTmrCtr_SetResetValue' [-Wimplicit-function-declaration]
+     XTmrCtr_SetResetValue(&Timer1, 0, 50000000);
+     ^
+../src/app.c:147:40: error: 'Timer1ISR' undeclared (first use in this function)
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, Timer1ISR, &Timer1);
+                                        ^
+../src/app.c:149:5: warning: implicit declaration of function 'XTmrCtr_Start' [-Wimplicit-function-declaration]
+     XTmrCtr_Start(&Timer1, 0);
+     ^
+../src/app.c: In function 'Timer0ISR':
+../src/app.c:172:5: error: expected declaration specifiers before 'OSSemPost'
+     OSSemPost(&Timer0Semaphore, 0, &os_err);
+     ^
+../src/app.c:173:1: error: expected declaration specifiers before '}' token
+ }
+ ^
+../src/app.c:176:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:188:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:170:6: error: old-style parameter declarations in prototyped function definition
+ void Timer0ISR (void *p_arg, CPU_INT32U cpu)
+      ^
+../src/app.c:203:1: error: expected '{' at end of input
+ }
+ ^
+make: *** [src/app.o] Erreur 1
+09:13:53 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c:112:1: error: unknown type name 'nt'
+ nt  DMA_Intr_Init(XAxiDma *DMAPtr,u32 DeviceId);
+ ^
+../src/app.c: In function 'MainTask':
+../src/app.c:166:5: error: 'Timer0' undeclared (first use in this function)
+     Timer0 = AXITimer_Init(0);
+     ^
+../src/app.c:166:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/app.c:166:5: warning: implicit declaration of function 'AXITimer_Init' [-Wimplicit-function-declaration]
+../src/app.c:167:5: warning: implicit declaration of function 'AXITimer_OptSet' [-Wimplicit-function-declaration]
+     AXITimer_OptSet(Timer0, 0, AXITIMER_OPT_DOWN | AXITIMER_OPT_AUTO_RELOAD | AXITIMER_OPT_INT);
+     ^
+../src/app.c:167:32: error: 'AXITIMER_OPT_DOWN' undeclared (first use in this function)
+     AXITimer_OptSet(Timer0, 0, AXITIMER_OPT_DOWN | AXITIMER_OPT_AUTO_RELOAD | AXITIMER_OPT_INT);
+                                ^
+../src/app.c:167:52: error: 'AXITIMER_OPT_AUTO_RELOAD' undeclared (first use in this function)
+     AXITimer_OptSet(Timer0, 0, AXITIMER_OPT_DOWN | AXITIMER_OPT_AUTO_RELOAD | AXITIMER_OPT_INT);
+                                                    ^
+../src/app.c:167:79: error: 'AXITIMER_OPT_INT' undeclared (first use in this function)
+     AXITimer_OptSet(Timer0, 0, AXITIMER_OPT_DOWN | AXITIMER_OPT_AUTO_RELOAD | AXITIMER_OPT_INT);
+                                                                               ^
+../src/app.c:168:5: warning: implicit declaration of function 'AXITimer_LoadSet' [-Wimplicit-function-declaration]
+     AXITimer_LoadSet(Timer0, 0, 100000000);
+     ^
+../src/app.c:169:5: warning: implicit declaration of function 'AXITimer_CallbackSet' [-Wimplicit-function-declaration]
+     AXITimer_CallbackSet(Timer0, 0, Timer0ISR);
+     ^
+../src/app.c:170:5: warning: implicit declaration of function 'AXITimer_Start' [-Wimplicit-function-declaration]
+     AXITimer_Start(Timer0, 0);
+     ^
+../src/app.c:172:5: warning: implicit declaration of function 'XTmrCtr_Initialize' [-Wimplicit-function-declaration]
+     XTmrCtr_Initialize(&Timer1, 0);
+     ^
+../src/app.c:172:25: error: 'Timer1' undeclared (first use in this function)
+     XTmrCtr_Initialize(&Timer1, 0);
+                         ^
+../src/app.c:173:5: warning: implicit declaration of function 'XTmrCtr_SetOptions' [-Wimplicit-function-declaration]
+     XTmrCtr_SetOptions(&Timer1, 0, XTC_DOWN_COUNT_OPTION | XTC_AUTO_RELOAD_OPTION | XTC_INT_MODE_OPTION);
+     ^
+../src/app.c:173:36: error: 'XTC_DOWN_COUNT_OPTION' undeclared (first use in this function)
+     XTmrCtr_SetOptions(&Timer1, 0, XTC_DOWN_COUNT_OPTION | XTC_AUTO_RELOAD_OPTION | XTC_INT_MODE_OPTION);
+                                    ^
+../src/app.c:173:60: error: 'XTC_AUTO_RELOAD_OPTION' undeclared (first use in this function)
+     XTmrCtr_SetOptions(&Timer1, 0, XTC_DOWN_COUNT_OPTION | XTC_AUTO_RELOAD_OPTION | XTC_INT_MODE_OPTION);
+                                                            ^
+../src/app.c:173:85: error: 'XTC_INT_MODE_OPTION' undeclared (first use in this function)
+     XTmrCtr_SetOptions(&Timer1, 0, XTC_DOWN_COUNT_OPTION | XTC_AUTO_RELOAD_OPTION | XTC_INT_MODE_OPTION);
+                                                                                     ^
+../src/app.c:174:5: warning: implicit declaration of function 'XTmrCtr_SetResetValue' [-Wimplicit-function-declaration]
+     XTmrCtr_SetResetValue(&Timer1, 0, 50000000);
+     ^
+../src/app.c:175:40: error: 'Timer1ISR' undeclared (first use in this function)
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, Timer1ISR, &Timer1);
+                                        ^
+../src/app.c:177:5: warning: implicit declaration of function 'XTmrCtr_Start' [-Wimplicit-function-declaration]
+     XTmrCtr_Start(&Timer1, 0);
+     ^
+../src/app.c: In function 'Timer0ISR':
+../src/app.c:200:5: error: expected declaration specifiers before 'OSSemPost'
+     OSSemPost(&Timer0Semaphore, 0, &os_err);
+     ^
+../src/app.c:201:1: error: expected declaration specifiers before '}' token
+ }
+ ^
+../src/app.c:204:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:216:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:198:6: error: old-style parameter declarations in prototyped function definition
+ void Timer0ISR (void *p_arg, CPU_INT32U cpu)
+      ^
+../src/app.c:231:1: error: expected '{' at end of input
+ }
+ ^
+../src/app.c: At top level:
+../src/app.c:85:17: warning: 'AxiDma' defined but not used [-Wunused-variable]
+ static  XAxiDma AxiDma;
+                 ^
+make: *** [src/app.o] Erreur 1
+09:14:00 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c:112:1: error: unknown type name 'nt'
+ nt  DMA_Intr_Init(XAxiDma *DMAPtr,u32 DeviceId);
+ ^
+../src/app.c: In function 'MainTask':
+../src/app.c:166:5: error: 'Timer0' undeclared (first use in this function)
+     Timer0 = AXITimer_Init(0);
+     ^
+../src/app.c:166:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/app.c:166:5: warning: implicit declaration of function 'AXITimer_Init' [-Wimplicit-function-declaration]
+../src/app.c:167:5: warning: implicit declaration of function 'AXITimer_OptSet' [-Wimplicit-function-declaration]
+     AXITimer_OptSet(Timer0, 0, AXITIMER_OPT_DOWN | AXITIMER_OPT_AUTO_RELOAD | AXITIMER_OPT_INT);
+     ^
+../src/app.c:167:32: error: 'AXITIMER_OPT_DOWN' undeclared (first use in this function)
+     AXITimer_OptSet(Timer0, 0, AXITIMER_OPT_DOWN | AXITIMER_OPT_AUTO_RELOAD | AXITIMER_OPT_INT);
+                                ^
+../src/app.c:167:52: error: 'AXITIMER_OPT_AUTO_RELOAD' undeclared (first use in this function)
+     AXITimer_OptSet(Timer0, 0, AXITIMER_OPT_DOWN | AXITIMER_OPT_AUTO_RELOAD | AXITIMER_OPT_INT);
+                                                    ^
+../src/app.c:167:79: error: 'AXITIMER_OPT_INT' undeclared (first use in this function)
+     AXITimer_OptSet(Timer0, 0, AXITIMER_OPT_DOWN | AXITIMER_OPT_AUTO_RELOAD | AXITIMER_OPT_INT);
+                                                                               ^
+../src/app.c:168:5: warning: implicit declaration of function 'AXITimer_LoadSet' [-Wimplicit-function-declaration]
+     AXITimer_LoadSet(Timer0, 0, 100000000);
+     ^
+../src/app.c:169:5: warning: implicit declaration of function 'AXITimer_CallbackSet' [-Wimplicit-function-declaration]
+     AXITimer_CallbackSet(Timer0, 0, Timer0ISR);
+     ^
+../src/app.c:170:5: warning: implicit declaration of function 'AXITimer_Start' [-Wimplicit-function-declaration]
+     AXITimer_Start(Timer0, 0);
+     ^
+../src/app.c:172:5: warning: implicit declaration of function 'XTmrCtr_Initialize' [-Wimplicit-function-declaration]
+     XTmrCtr_Initialize(&Timer1, 0);
+     ^
+../src/app.c:172:25: error: 'Timer1' undeclared (first use in this function)
+     XTmrCtr_Initialize(&Timer1, 0);
+                         ^
+../src/app.c:173:5: warning: implicit declaration of function 'XTmrCtr_SetOptions' [-Wimplicit-function-declaration]
+     XTmrCtr_SetOptions(&Timer1, 0, XTC_DOWN_COUNT_OPTION | XTC_AUTO_RELOAD_OPTION | XTC_INT_MODE_OPTION);
+     ^
+../src/app.c:173:36: error: 'XTC_DOWN_COUNT_OPTION' undeclared (first use in this function)
+     XTmrCtr_SetOptions(&Timer1, 0, XTC_DOWN_COUNT_OPTION | XTC_AUTO_RELOAD_OPTION | XTC_INT_MODE_OPTION);
+                                    ^
+../src/app.c:173:60: error: 'XTC_AUTO_RELOAD_OPTION' undeclared (first use in this function)
+     XTmrCtr_SetOptions(&Timer1, 0, XTC_DOWN_COUNT_OPTION | XTC_AUTO_RELOAD_OPTION | XTC_INT_MODE_OPTION);
+                                                            ^
+../src/app.c:173:85: error: 'XTC_INT_MODE_OPTION' undeclared (first use in this function)
+     XTmrCtr_SetOptions(&Timer1, 0, XTC_DOWN_COUNT_OPTION | XTC_AUTO_RELOAD_OPTION | XTC_INT_MODE_OPTION);
+                                                                                     ^
+../src/app.c:174:5: warning: implicit declaration of function 'XTmrCtr_SetResetValue' [-Wimplicit-function-declaration]
+     XTmrCtr_SetResetValue(&Timer1, 0, 50000000);
+     ^
+../src/app.c:175:40: error: 'Timer1ISR' undeclared (first use in this function)
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, Timer1ISR, &Timer1);
+                                        ^
+../src/app.c:177:5: warning: implicit declaration of function 'XTmrCtr_Start' [-Wimplicit-function-declaration]
+     XTmrCtr_Start(&Timer1, 0);
+     ^
+../src/app.c: In function 'Timer0ISR':
+../src/app.c:200:5: error: expected declaration specifiers before 'OSSemPost'
+     OSSemPost(&Timer0Semaphore, 0, &os_err);
+     ^
+../src/app.c:201:1: error: expected declaration specifiers before '}' token
+ }
+ ^
+../src/app.c:204:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:216:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:198:6: error: old-style parameter declarations in prototyped function definition
+ void Timer0ISR (void *p_arg, CPU_INT32U cpu)
+      ^
+../src/app.c:231:1: error: expected '{' at end of input
+ }
+ ^
+make: *** [src/app.o] Erreur 1
+09:14:33 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:166:5: error: 'Timer0' undeclared (first use in this function)
+     Timer0 = AXITimer_Init(0);
+     ^
+../src/app.c:166:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/app.c:166:5: warning: implicit declaration of function 'AXITimer_Init' [-Wimplicit-function-declaration]
+../src/app.c:167:5: warning: implicit declaration of function 'AXITimer_OptSet' [-Wimplicit-function-declaration]
+     AXITimer_OptSet(Timer0, 0, AXITIMER_OPT_DOWN | AXITIMER_OPT_AUTO_RELOAD | AXITIMER_OPT_INT);
+     ^
+../src/app.c:167:32: error: 'AXITIMER_OPT_DOWN' undeclared (first use in this function)
+     AXITimer_OptSet(Timer0, 0, AXITIMER_OPT_DOWN | AXITIMER_OPT_AUTO_RELOAD | AXITIMER_OPT_INT);
+                                ^
+../src/app.c:167:52: error: 'AXITIMER_OPT_AUTO_RELOAD' undeclared (first use in this function)
+     AXITimer_OptSet(Timer0, 0, AXITIMER_OPT_DOWN | AXITIMER_OPT_AUTO_RELOAD | AXITIMER_OPT_INT);
+                                                    ^
+../src/app.c:167:79: error: 'AXITIMER_OPT_INT' undeclared (first use in this function)
+     AXITimer_OptSet(Timer0, 0, AXITIMER_OPT_DOWN | AXITIMER_OPT_AUTO_RELOAD | AXITIMER_OPT_INT);
+                                                                               ^
+../src/app.c:168:5: warning: implicit declaration of function 'AXITimer_LoadSet' [-Wimplicit-function-declaration]
+     AXITimer_LoadSet(Timer0, 0, 100000000);
+     ^
+../src/app.c:169:5: warning: implicit declaration of function 'AXITimer_CallbackSet' [-Wimplicit-function-declaration]
+     AXITimer_CallbackSet(Timer0, 0, Timer0ISR);
+     ^
+../src/app.c:170:5: warning: implicit declaration of function 'AXITimer_Start' [-Wimplicit-function-declaration]
+     AXITimer_Start(Timer0, 0);
+     ^
+../src/app.c:172:5: warning: implicit declaration of function 'XTmrCtr_Initialize' [-Wimplicit-function-declaration]
+     XTmrCtr_Initialize(&Timer1, 0);
+     ^
+../src/app.c:172:25: error: 'Timer1' undeclared (first use in this function)
+     XTmrCtr_Initialize(&Timer1, 0);
+                         ^
+../src/app.c:173:5: warning: implicit declaration of function 'XTmrCtr_SetOptions' [-Wimplicit-function-declaration]
+     XTmrCtr_SetOptions(&Timer1, 0, XTC_DOWN_COUNT_OPTION | XTC_AUTO_RELOAD_OPTION | XTC_INT_MODE_OPTION);
+     ^
+../src/app.c:173:36: error: 'XTC_DOWN_COUNT_OPTION' undeclared (first use in this function)
+     XTmrCtr_SetOptions(&Timer1, 0, XTC_DOWN_COUNT_OPTION | XTC_AUTO_RELOAD_OPTION | XTC_INT_MODE_OPTION);
+                                    ^
+../src/app.c:173:60: error: 'XTC_AUTO_RELOAD_OPTION' undeclared (first use in this function)
+     XTmrCtr_SetOptions(&Timer1, 0, XTC_DOWN_COUNT_OPTION | XTC_AUTO_RELOAD_OPTION | XTC_INT_MODE_OPTION);
+                                                            ^
+../src/app.c:173:85: error: 'XTC_INT_MODE_OPTION' undeclared (first use in this function)
+     XTmrCtr_SetOptions(&Timer1, 0, XTC_DOWN_COUNT_OPTION | XTC_AUTO_RELOAD_OPTION | XTC_INT_MODE_OPTION);
+                                                                                     ^
+../src/app.c:174:5: warning: implicit declaration of function 'XTmrCtr_SetResetValue' [-Wimplicit-function-declaration]
+     XTmrCtr_SetResetValue(&Timer1, 0, 50000000);
+     ^
+../src/app.c:175:40: error: 'Timer1ISR' undeclared (first use in this function)
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, Timer1ISR, &Timer1);
+                                        ^
+../src/app.c:177:5: warning: implicit declaration of function 'XTmrCtr_Start' [-Wimplicit-function-declaration]
+     XTmrCtr_Start(&Timer1, 0);
+     ^
+../src/app.c: In function 'Timer0ISR':
+../src/app.c:200:5: error: expected declaration specifiers before 'OSSemPost'
+     OSSemPost(&Timer0Semaphore, 0, &os_err);
+     ^
+../src/app.c:201:1: error: expected declaration specifiers before '}' token
+ }
+ ^
+../src/app.c:204:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:216:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:198:6: error: old-style parameter declarations in prototyped function definition
+ void Timer0ISR (void *p_arg, CPU_INT32U cpu)
+      ^
+../src/app.c:231:1: error: expected '{' at end of input
+ }
+ ^
+make: *** [src/app.o] Erreur 1
+09:15:16 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'Timer0ISR':
+../src/app.c:214:5: error: expected declaration specifiers before 'OSSemPost'
+     OSSemPost(&Timer0Semaphore, 0, &os_err);
+     ^
+../src/app.c:215:1: error: expected declaration specifiers before '}' token
+ }
+ ^
+../src/app.c:218:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:230:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:212:6: error: old-style parameter declarations in prototyped function definition
+ void Timer0ISR (void *p_arg, CPU_INT32U cpu)
+      ^
+../src/app.c:245:1: error: expected '{' at end of input
+ }
+ ^
+make: *** [src/app.o] Erreur 1
+09:19:58 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c:113:22: error: unknown type name 'XScuGic'
+ int  DMA_Intr_Enable(XScuGic * IntcInstancePtr,XAxiDma *DMAPtr);
+                      ^
+../src/app.c: In function 'MainTask':
+../src/app.c:170:5: warning: implicit declaration of function 'DMA_Intr_Enable' [-Wimplicit-function-declaration]
+     DMA_Intr_Enable(&Intc,&AxiDma);
+     ^
+../src/app.c:170:22: error: 'Intc' undeclared (first use in this function)
+     DMA_Intr_Enable(&Intc,&AxiDma);
+                      ^
+../src/app.c:170:22: note: each undeclared identifier is reported only once for each function it appears in
+../src/app.c: At top level:
+../src/app.c:205:21: error: unknown type name 'XScuGic'
+ int DMA_Intr_Enable(XScuGic * IntcInstancePtr,XAxiDma *DMAPtr)
+                     ^
+../src/app.c: In function 'Timer0ISR':
+../src/app.c:230:5: error: expected declaration specifiers before 'OSSemPost'
+     OSSemPost(&Timer0Semaphore, 0, &os_err);
+     ^
+../src/app.c:231:1: error: expected declaration specifiers before '}' token
+ }
+ ^
+../src/app.c:234:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:246:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:228:6: error: old-style parameter declarations in prototyped function definition
+ void Timer0ISR (void *p_arg, CPU_INT32U cpu)
+      ^
+../src/app.c:261:1: error: expected '{' at end of input
+ }
+ ^
+make: *** [src/app.o] Erreur 1
+09:20:17 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c:113:22: error: unknown type name 'XScuGic'
+ int  DMA_Intr_Enable(XScuGic * IntcInstancePtr,XAxiDma *DMAPtr);
+                      ^
+../src/app.c: In function 'MainTask':
+../src/app.c:170:5: warning: implicit declaration of function 'DMA_Intr_Enable' [-Wimplicit-function-declaration]
+     DMA_Intr_Enable(&Intc,&AxiDma);
+     ^
+../src/app.c:170:22: error: 'Intc' undeclared (first use in this function)
+     DMA_Intr_Enable(&Intc,&AxiDma);
+                      ^
+../src/app.c:170:22: note: each undeclared identifier is reported only once for each function it appears in
+../src/app.c: At top level:
+../src/app.c:205:21: error: unknown type name 'XScuGic'
+ int DMA_Intr_Enable(XScuGic * IntcInstancePtr,XAxiDma *DMAPtr)
+                     ^
+../src/app.c: In function 'Timer0ISR':
+../src/app.c:231:5: error: expected declaration specifiers before 'OSSemPost'
+     OSSemPost(&Timer0Semaphore, 0, &os_err);
+     ^
+../src/app.c:232:1: error: expected declaration specifiers before '}' token
+ }
+ ^
+../src/app.c:235:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:247:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:229:6: error: old-style parameter declarations in prototyped function definition
+ void Timer0ISR (void *p_arg, CPU_INT32U cpu)
+      ^
+../src/app.c:262:1: error: expected '{' at end of input
+ }
+ ^
+make: *** [src/app.o] Erreur 1
+09:20:46 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:170:22: error: 'Intc' undeclared (first use in this function)
+     DMA_Intr_Enable(&Intc,&AxiDma);
+                      ^
+../src/app.c:170:22: note: each undeclared identifier is reported only once for each function it appears in
+../src/app.c:170:5: error: too many arguments to function 'DMA_Intr_Enable'
+     DMA_Intr_Enable(&Intc,&AxiDma);
+     ^
+../src/app.c:113:6: note: declared here
+ int  DMA_Intr_Enable(XAxiDma *DMAPtr);
+      ^
+../src/app.c: At top level:
+../src/app.c:205:21: error: unknown type name 'XScuGic'
+ int DMA_Intr_Enable(XScuGic * IntcInstancePtr,XAxiDma *DMAPtr)
+                     ^
+../src/app.c: In function 'Timer0ISR':
+../src/app.c:231:5: error: expected declaration specifiers before 'OSSemPost'
+     OSSemPost(&Timer0Semaphore, 0, &os_err);
+     ^
+../src/app.c:232:1: error: expected declaration specifiers before '}' token
+ }
+ ^
+../src/app.c:235:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:247:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:229:6: error: old-style parameter declarations in prototyped function definition
+ void Timer0ISR (void *p_arg, CPU_INT32U cpu)
+      ^
+../src/app.c:262:1: error: expected '{' at end of input
+ }
+ ^
+make: *** [src/app.o] Erreur 1
+09:20:56 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c:205:21: error: unknown type name 'XScuGic'
+ int DMA_Intr_Enable(XScuGic * IntcInstancePtr,XAxiDma *DMAPtr)
+                     ^
+../src/app.c: In function 'Timer0ISR':
+../src/app.c:231:5: error: expected declaration specifiers before 'OSSemPost'
+     OSSemPost(&Timer0Semaphore, 0, &os_err);
+     ^
+../src/app.c:232:1: error: expected declaration specifiers before '}' token
+ }
+ ^
+../src/app.c:235:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:247:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:229:6: error: old-style parameter declarations in prototyped function definition
+ void Timer0ISR (void *p_arg, CPU_INT32U cpu)
+      ^
+../src/app.c:262:1: error: expected '{' at end of input
+ }
+ ^
+make: *** [src/app.o] Erreur 1
+09:21:02 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'Timer0ISR':
+../src/app.c:231:5: error: expected declaration specifiers before 'OSSemPost'
+     OSSemPost(&Timer0Semaphore, 0, &os_err);
+     ^
+../src/app.c:232:1: error: expected declaration specifiers before '}' token
+ }
+ ^
+../src/app.c:235:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:247:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:229:6: error: old-style parameter declarations in prototyped function definition
+ void Timer0ISR (void *p_arg, CPU_INT32U cpu)
+      ^
+../src/app.c:262:1: error: expected '{' at end of input
+ }
+ ^
+make: *** [src/app.o] Erreur 1
+09:21:08 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'Timer0ISR':
+../src/app.c:230:5: error: expected declaration specifiers before 'OSSemPost'
+     OSSemPost(&Timer0Semaphore, 0, &os_err);
+     ^
+../src/app.c:231:1: error: expected declaration specifiers before '}' token
+ }
+ ^
+../src/app.c:234:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:246:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/app.c:228:6: error: old-style parameter declarations in prototyped function definition
+ void Timer0ISR (void *p_arg, CPU_INT32U cpu)
+      ^
+../src/app.c:261:1: error: expected '{' at end of input
+ }
+ ^
+make: *** [src/app.o] Erreur 1
+09:36:37 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'Timer0ISR':
+../src/app.c:232:35: error: 'Callback' undeclared (first use in this function)
+  XAxiDma *AxiDmaInst = (XAxiDma *)Callback;
+                                   ^
+../src/app.c:232:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/app.c: In function 'Timer1Task':
+../src/app.c:288:20: error: 'Timer1Semaphore' undeclared (first use in this function)
+         OSSemPend(&Timer1Semaphore, 0, 0, DEF_NULL, &os_err);
+                    ^
+../src/app.c: In function 'Timer1ISR':
+../src/app.c:298:5: warning: implicit declaration of function 'XTmrCtr_ReadReg' [-Wimplicit-function-declaration]
+     ControlStatusReg = XTmrCtr_ReadReg(Timer1.BaseAddress,
+     ^
+../src/app.c:298:40: error: 'Timer1' undeclared (first use in this function)
+     ControlStatusReg = XTmrCtr_ReadReg(Timer1.BaseAddress,
+                                        ^
+../src/app.c:300:40: error: 'XTC_TCSR_OFFSET' undeclared (first use in this function)
+                                        XTC_TCSR_OFFSET);
+                                        ^
+../src/app.c:302:5: warning: implicit declaration of function 'XTmrCtr_WriteReg' [-Wimplicit-function-declaration]
+     XTmrCtr_WriteReg(Timer1.BaseAddress,
+     ^
+../src/app.c:306:22: error: 'XTC_CSR_INT_OCCURED_MASK' undeclared (first use in this function)
+                      XTC_CSR_INT_OCCURED_MASK);
+                      ^
+../src/app.c:308:16: error: 'Timer1Semaphore' undeclared (first use in this function)
+     OSSemPost(&Timer1Semaphore, 0, &os_err);
+                ^
+make: *** [src/app.o] Erreur 1
+09:37:04 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c:228:6: error: conflicting types for 'Timer0ISR'
+ void Timer0ISR (void *Callback)
+      ^
+../src/app.c:110:6: note: previous declaration of 'Timer0ISR' was here
+ void Timer0ISR (void *p_arg, CPU_INT32U cpu);
+      ^
+../src/app.c: In function 'Timer1Task':
+../src/app.c:288:20: error: 'Timer1Semaphore' undeclared (first use in this function)
+         OSSemPend(&Timer1Semaphore, 0, 0, DEF_NULL, &os_err);
+                    ^
+../src/app.c:288:20: note: each undeclared identifier is reported only once for each function it appears in
+../src/app.c: In function 'Timer1ISR':
+../src/app.c:298:5: warning: implicit declaration of function 'XTmrCtr_ReadReg' [-Wimplicit-function-declaration]
+     ControlStatusReg = XTmrCtr_ReadReg(Timer1.BaseAddress,
+     ^
+../src/app.c:298:40: error: 'Timer1' undeclared (first use in this function)
+     ControlStatusReg = XTmrCtr_ReadReg(Timer1.BaseAddress,
+                                        ^
+../src/app.c:300:40: error: 'XTC_TCSR_OFFSET' undeclared (first use in this function)
+                                        XTC_TCSR_OFFSET);
+                                        ^
+../src/app.c:302:5: warning: implicit declaration of function 'XTmrCtr_WriteReg' [-Wimplicit-function-declaration]
+     XTmrCtr_WriteReg(Timer1.BaseAddress,
+     ^
+../src/app.c:306:22: error: 'XTC_CSR_INT_OCCURED_MASK' undeclared (first use in this function)
+                      XTC_CSR_INT_OCCURED_MASK);
+                      ^
+../src/app.c:308:16: error: 'Timer1Semaphore' undeclared (first use in this function)
+     OSSemPost(&Timer1Semaphore, 0, &os_err);
+                ^
+make: *** [src/app.o] Erreur 1
+09:39:02 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:168:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, Timer0ISR, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *, void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+../src/app.c: At top level:
+../src/app.c:228:6: error: conflicting types for 'Timer0ISR'
+ void Timer0ISR (void *Callback)
+      ^
+../src/app.c:110:6: note: previous declaration of 'Timer0ISR' was here
+ void Timer0ISR (void *p_arg, void *Callback);
+      ^
+../src/app.c: In function 'Timer1Task':
+../src/app.c:288:20: error: 'Timer1Semaphore' undeclared (first use in this function)
+         OSSemPend(&Timer1Semaphore, 0, 0, DEF_NULL, &os_err);
+                    ^
+../src/app.c:288:20: note: each undeclared identifier is reported only once for each function it appears in
+../src/app.c: In function 'Timer1ISR':
+../src/app.c:298:5: warning: implicit declaration of function 'XTmrCtr_ReadReg' [-Wimplicit-function-declaration]
+     ControlStatusReg = XTmrCtr_ReadReg(Timer1.BaseAddress,
+     ^
+../src/app.c:298:40: error: 'Timer1' undeclared (first use in this function)
+     ControlStatusReg = XTmrCtr_ReadReg(Timer1.BaseAddress,
+                                        ^
+../src/app.c:300:40: error: 'XTC_TCSR_OFFSET' undeclared (first use in this function)
+                                        XTC_TCSR_OFFSET);
+                                        ^
+../src/app.c:302:5: warning: implicit declaration of function 'XTmrCtr_WriteReg' [-Wimplicit-function-declaration]
+     XTmrCtr_WriteReg(Timer1.BaseAddress,
+     ^
+../src/app.c:306:22: error: 'XTC_CSR_INT_OCCURED_MASK' undeclared (first use in this function)
+                      XTC_CSR_INT_OCCURED_MASK);
+                      ^
+../src/app.c:308:16: error: 'Timer1Semaphore' undeclared (first use in this function)
+     OSSemPost(&Timer1Semaphore, 0, &os_err);
+                ^
+make: *** [src/app.o] Erreur 1
+09:39:12 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:168:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, Timer0ISR, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *, void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+../src/app.c: At top level:
+../src/app.c:229:1: error: expected identifier or '(' before '{' token
+ {
+ ^
+../src/app.c: In function 'Timer1Task':
+../src/app.c:288:20: error: 'Timer1Semaphore' undeclared (first use in this function)
+         OSSemPend(&Timer1Semaphore, 0, 0, DEF_NULL, &os_err);
+                    ^
+../src/app.c:288:20: note: each undeclared identifier is reported only once for each function it appears in
+../src/app.c: In function 'Timer1ISR':
+../src/app.c:298:5: warning: implicit declaration of function 'XTmrCtr_ReadReg' [-Wimplicit-function-declaration]
+     ControlStatusReg = XTmrCtr_ReadReg(Timer1.BaseAddress,
+     ^
+../src/app.c:298:40: error: 'Timer1' undeclared (first use in this function)
+     ControlStatusReg = XTmrCtr_ReadReg(Timer1.BaseAddress,
+                                        ^
+../src/app.c:300:40: error: 'XTC_TCSR_OFFSET' undeclared (first use in this function)
+                                        XTC_TCSR_OFFSET);
+                                        ^
+../src/app.c:302:5: warning: implicit declaration of function 'XTmrCtr_WriteReg' [-Wimplicit-function-declaration]
+     XTmrCtr_WriteReg(Timer1.BaseAddress,
+     ^
+../src/app.c:306:22: error: 'XTC_CSR_INT_OCCURED_MASK' undeclared (first use in this function)
+                      XTC_CSR_INT_OCCURED_MASK);
+                      ^
+../src/app.c:308:16: error: 'Timer1Semaphore' undeclared (first use in this function)
+     OSSemPost(&Timer1Semaphore, 0, &os_err);
+                ^
+make: *** [src/app.o] Erreur 1
+09:39:15 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:168:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, Timer0ISR, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *, void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+../src/app.c: In function 'Timer1Task':
+../src/app.c:288:20: error: 'Timer1Semaphore' undeclared (first use in this function)
+         OSSemPend(&Timer1Semaphore, 0, 0, DEF_NULL, &os_err);
+                    ^
+../src/app.c:288:20: note: each undeclared identifier is reported only once for each function it appears in
+../src/app.c: In function 'Timer1ISR':
+../src/app.c:298:5: warning: implicit declaration of function 'XTmrCtr_ReadReg' [-Wimplicit-function-declaration]
+     ControlStatusReg = XTmrCtr_ReadReg(Timer1.BaseAddress,
+     ^
+../src/app.c:298:40: error: 'Timer1' undeclared (first use in this function)
+     ControlStatusReg = XTmrCtr_ReadReg(Timer1.BaseAddress,
+                                        ^
+../src/app.c:300:40: error: 'XTC_TCSR_OFFSET' undeclared (first use in this function)
+                                        XTC_TCSR_OFFSET);
+                                        ^
+../src/app.c:302:5: warning: implicit declaration of function 'XTmrCtr_WriteReg' [-Wimplicit-function-declaration]
+     XTmrCtr_WriteReg(Timer1.BaseAddress,
+     ^
+../src/app.c:306:22: error: 'XTC_CSR_INT_OCCURED_MASK' undeclared (first use in this function)
+                      XTC_CSR_INT_OCCURED_MASK);
+                      ^
+../src/app.c:308:16: error: 'Timer1Semaphore' undeclared (first use in this function)
+     OSSemPost(&Timer1Semaphore, 0, &os_err);
+                ^
+make: *** [src/app.o] Erreur 1
+09:45:13 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:150:18: error: 'DMA0Semaphore' undeclared (first use in this function)
+     OSSemCreate(&DMA0Semaphore, "DMA 0 Semaphore", 0, &os_err);
+                  ^
+../src/app.c:150:18: note: each undeclared identifier is reported only once for each function it appears in
+../src/app.c:168:40: error: 'DMA0ISR' undeclared (first use in this function)
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA0ISR, &AxiDma);
+                                        ^
+../src/app.c: In function 'DMA0Task':
+../src/app.c:223:20: error: 'DMA0Semaphore' undeclared (first use in this function)
+         OSSemPend(&DMA0Semaphore, 0, 0, DEF_NULL, &os_err);
+                    ^
+make: *** [src/app.o] Erreur 1
+09:45:58 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:150:18: error: 'DMA0Semaphore' undeclared (first use in this function)
+     OSSemCreate(&DMA0Semaphore, "DMA 0 Semaphore", 0, &os_err);
+                  ^
+../src/app.c:150:18: note: each undeclared identifier is reported only once for each function it appears in
+../src/app.c:168:40: error: 'DMA0ISR' undeclared (first use in this function)
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA0ISR, &AxiDma);
+                                        ^
+../src/app.c: In function 'DMA0Task':
+../src/app.c:242:37: warning: 'return' with a value, in function returning void
+         if (Status != XST_SUCCESS) {return XST_FAILURE;}
+                                     ^
+../src/app.c:246:37: warning: 'return' with a value, in function returning void
+         if (Status != XST_SUCCESS) {return XST_FAILURE;}
+                                     ^
+../src/app.c:253:21: warning: 'return' with a value, in function returning void
+         if (Error) {return XST_FAILURE;}
+                     ^
+../src/app.c:258:5: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+     DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+     ^
+../src/app.c:258:28: error: 'Intc' undeclared (first use in this function)
+     DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+                            ^
+../src/app.c:258:34: error: 'TX_INTR_ID' undeclared (first use in this function)
+     DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+                                  ^
+../src/app.c:258:46: error: 'RX_INTR_ID' undeclared (first use in this function)
+     DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+                                              ^
+../src/app.c:260:5: warning: 'return' with a value, in function returning void
+     return XST_SUCCESS;
+     ^
+make: *** [src/app.o] Erreur 1
+09:57:41 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:150:18: error: 'DMA0Semaphore' undeclared (first use in this function)
+     OSSemCreate(&DMA0Semaphore, "DMA 0 Semaphore", 0, &os_err);
+                  ^
+../src/app.c:150:18: note: each undeclared identifier is reported only once for each function it appears in
+../src/app.c:168:40: error: 'DMA0ISR' undeclared (first use in this function)
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA0ISR, &AxiDma);
+                                        ^
+../src/app.c: In function 'DMA0Task':
+../src/app.c:242:37: warning: 'return' with a value, in function returning void
+         if (Status != XST_SUCCESS) {return XST_FAILURE;}
+                                     ^
+../src/app.c:246:37: warning: 'return' with a value, in function returning void
+         if (Status != XST_SUCCESS) {return XST_FAILURE;}
+                                     ^
+../src/app.c:253:21: warning: 'return' with a value, in function returning void
+         if (Error) {return XST_FAILURE;}
+                     ^
+../src/app.c:259:5: warning: 'return' with a value, in function returning void
+     return XST_SUCCESS;
+     ^
+make: *** [src/app.o] Erreur 1
+09:58:11 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:150:18: error: 'DMA0Semaphore' undeclared (first use in this function)
+     OSSemCreate(&DMA0Semaphore, "DMA 0 Semaphore", 0, &os_err);
+                  ^
+../src/app.c:150:18: note: each undeclared identifier is reported only once for each function it appears in
+../src/app.c:168:40: error: 'DMA0ISR' undeclared (first use in this function)
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA0ISR, &AxiDma);
+                                        ^
+../src/app.c: In function 'DMA0Task':
+../src/app.c:259:5: warning: 'return' with a value, in function returning void
+     return XST_SUCCESS;
+     ^
+make: *** [src/app.o] Erreur 1
+09:58:17 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:150:18: error: 'DMA0Semaphore' undeclared (first use in this function)
+     OSSemCreate(&DMA0Semaphore, "DMA 0 Semaphore", 0, &os_err);
+                  ^
+../src/app.c:150:18: note: each undeclared identifier is reported only once for each function it appears in
+../src/app.c:168:40: error: 'DMA0ISR' undeclared (first use in this function)
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA0ISR, &AxiDma);
+                                        ^
+make: *** [src/app.o] Erreur 1
+09:58:43 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:168:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA0ISR, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *, void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_test_intr.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_test_intr_bsp/ps7_cortexa9_0/lib -o "ucos_test_intr.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_test_intr.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_test_intr.elf  |tee "ucos_test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75112	    116	  38560	 113788	  1bc7c	ucos_test_intr.elf
+'Finished building: ucos_test_intr.elf.size'
+' '
+09:59:20 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:168:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA0ISR, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *, void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+../src/app.c:171:15: error: expected expression before 'void'
+     DMA0Task (void *p_arg);
+               ^
+make: *** [src/app.o] Erreur 1
+09:59:55 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:168:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA0ISR, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_test_intr.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_test_intr_bsp/ps7_cortexa9_0/lib -o "ucos_test_intr.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_test_intr.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_test_intr.elf  |tee "ucos_test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75112	    116	  38560	 113788	  1bc7c	ucos_test_intr.elf
+'Finished building: ucos_test_intr.elf.size'
+' '
+10:00:36 **** Incremental Build of configuration Debug for project ucos_test_intr ****
+make all 
+make: Rien à faire pour « all ».
+10:03:22 **** Incremental Build of configuration Debug for project ucos_test_intr ****
+make all 
+make: Rien à faire pour « all ».
+10:06:58 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:168:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA_TxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+../src/app.c: At top level:
+../src/app.c:314:13: warning: 'DMA_RxIntrHandler' defined but not used [-Wunused-function]
+ static void DMA_RxIntrHandler(void *Callback)
+             ^
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_test_intr.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_test_intr_bsp/ps7_cortexa9_0/lib -o "ucos_test_intr.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_test_intr.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_test_intr.elf  |tee "ucos_test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75388	    116	  38560	 114064	  1bd90	ucos_test_intr.elf
+'Finished building: ucos_test_intr.elf.size'
+' '
+10:07:13 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:168:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA_TxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+../src/app.c: At top level:
+../src/app.c:263:13: error: static declaration of 'DMA_TxIntrHandler' follows non-static declaration
+ static void DMA_TxIntrHandler(void *Callback)
+             ^
+../src/app.c:110:6: note: previous declaration of 'DMA_TxIntrHandler' was here
+ void DMA_TxIntrHandler (void *Callback);
+      ^
+../src/app.c:263:13: warning: 'DMA_TxIntrHandler' defined but not used [-Wunused-function]
+ static void DMA_TxIntrHandler(void *Callback)
+             ^
+../src/app.c:315:13: warning: 'DMA_RxIntrHandler' defined but not used [-Wunused-function]
+ static void DMA_RxIntrHandler(void *Callback)
+             ^
+make: *** [src/app.o] Erreur 1
+10:07:51 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:168:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA_TxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+../src/app.c: At top level:
+../src/app.c:315:13: warning: 'DMA_RxIntrHandler' defined but not used [-Wunused-function]
+ static void DMA_RxIntrHandler(void *Callback)
+             ^
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_test_intr.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_test_intr_bsp/ps7_cortexa9_0/lib -o "ucos_test_intr.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_test_intr.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_test_intr.elf  |tee "ucos_test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75428	    116	  38560	 114104	  1bdb8	ucos_test_intr.elf
+'Finished building: ucos_test_intr.elf.size'
+' '
+10:08:07 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:169:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA_TxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_test_intr.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_test_intr_bsp/ps7_cortexa9_0/lib -o "ucos_test_intr.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_test_intr.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_test_intr.elf  |tee "ucos_test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75428	    116	  38560	 114104	  1bdb8	ucos_test_intr.elf
+'Finished building: ucos_test_intr.elf.size'
+' '
+10:11:46 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:169:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(61, 0, DEF_BIT_00, DMA_TxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_test_intr.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_test_intr_bsp/ps7_cortexa9_0/lib -o "ucos_test_intr.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_test_intr.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_test_intr.elf  |tee "ucos_test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75428	    116	  38560	 114104	  1bdb8	ucos_test_intr.elf
+'Finished building: ucos_test_intr.elf.size'
+' '
+10:11:54 **** Incremental Build of configuration Debug for project ucos_test_intr ****
+make all 
+make: Rien à faire pour « all ».
+10:12:49 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:169:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA_TxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_test_intr.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_test_intr_bsp/ps7_cortexa9_0/lib -o "ucos_test_intr.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_test_intr.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_test_intr.elf  |tee "ucos_test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75428	    116	  38560	 114104	  1bdb8	ucos_test_intr.elf
+'Finished building: ucos_test_intr.elf.size'
+' '
+10:12:59 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:169:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA_TxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+../src/app.c:170:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(63, 0, DEF_BIT_00, DMA_TxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_test_intr.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_test_intr_bsp/ps7_cortexa9_0/lib -o "ucos_test_intr.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_test_intr.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_test_intr.elf  |tee "ucos_test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75492	    116	  38560	 114168	  1bdf8	ucos_test_intr.elf
+'Finished building: ucos_test_intr.elf.size'
+' '
+10:13:08 **** Incremental Build of configuration Debug for project ucos_test_intr ****
+make all 
+make: Rien à faire pour « all ».
+10:14:03 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:170:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(63, 0, DEF_BIT_00, DMA_TxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_test_intr.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_test_intr_bsp/ps7_cortexa9_0/lib -o "ucos_test_intr.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_test_intr.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_test_intr.elf  |tee "ucos_test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75428	    116	  38560	 114104	  1bdb8	ucos_test_intr.elf
+'Finished building: ucos_test_intr.elf.size'
+' '
+10:14:06 **** Incremental Build of configuration Debug for project ucos_test_intr ****
+make all 
+make: Rien à faire pour « all ».
+10:15:38 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:169:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA_TxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+../src/app.c:170:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(63, 0, DEF_BIT_00, DMA_RxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_test_intr.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_test_intr_bsp/ps7_cortexa9_0/lib -o "ucos_test_intr.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_test_intr.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_test_intr.elf  |tee "ucos_test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75492	    116	  38560	 114168	  1bdf8	ucos_test_intr.elf
+'Finished building: ucos_test_intr.elf.size'
+' '
+10:16:06 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:169:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA_TxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+../src/app.c:170:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(63, 0, DEF_BIT_00, DMA_RxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_test_intr.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_test_intr_bsp/ps7_cortexa9_0/lib -o "ucos_test_intr.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_test_intr.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_test_intr.elf  |tee "ucos_test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75492	    116	  38560	 114168	  1bdf8	ucos_test_intr.elf
+'Finished building: ucos_test_intr.elf.size'
+' '
+10:16:08 **** Incremental Build of configuration Debug for project ucos_test_intr ****
+make all 
+make: Rien à faire pour « all ».
+10:16:42 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:169:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA_TxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+../src/app.c:170:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(61, 0, DEF_BIT_00, DMA_RxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_test_intr.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_test_intr_bsp/ps7_cortexa9_0/lib -o "ucos_test_intr.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_test_intr.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_test_intr.elf  |tee "ucos_test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75492	    116	  38560	 114168	  1bdf8	ucos_test_intr.elf
+'Finished building: ucos_test_intr.elf.size'
+' '
+10:16:44 **** Incremental Build of configuration Debug for project ucos_test_intr ****
+make all 
+make: Rien à faire pour « all ».
+10:17:51 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:170:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA_RxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_test_intr.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_test_intr_bsp/ps7_cortexa9_0/lib -o "ucos_test_intr.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_test_intr.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_test_intr.elf  |tee "ucos_test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75428	    116	  38560	 114104	  1bdb8	ucos_test_intr.elf
+'Finished building: ucos_test_intr.elf.size'
+' '
+10:17:54 **** Incremental Build of configuration Debug for project ucos_test_intr ****
+make all 
+make: Rien à faire pour « all ».
+10:18:05 **** Incremental Build of configuration Debug for project ucos_test_intr ****
+make all 
+make: Rien à faire pour « all ».
+10:18:59 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:169:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA_TxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+../src/app.c: In function 'DMA_TxIntrHandler':
+../src/app.c:315:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA_RxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_test_intr.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_test_intr_bsp/ps7_cortexa9_0/lib -o "ucos_test_intr.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_test_intr.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_test_intr.elf  |tee "ucos_test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75492	    116	  38560	 114168	  1bdf8	ucos_test_intr.elf
+'Finished building: ucos_test_intr.elf.size'
+' '
+10:19:04 **** Incremental Build of configuration Debug for project ucos_test_intr ****
+make all 
+make: Rien à faire pour « all ».
+10:20:52 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:169:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA_TxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+../src/app.c: In function 'DMA_TxIntrHandler':
+../src/app.c:317:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA_RxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_test_intr.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_test_intr_bsp/ps7_cortexa9_0/lib -o "ucos_test_intr.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_test_intr.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_test_intr.elf  |tee "ucos_test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75492	    116	  38560	 114168	  1bdf8	ucos_test_intr.elf
+'Finished building: ucos_test_intr.elf.size'
+' '
+10:20:55 **** Incremental Build of configuration Debug for project ucos_test_intr ****
+make all 
+make: Rien à faire pour « all ».
+10:23:35 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'MainTask':
+../src/app.c:169:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA_TxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+../src/app.c: In function 'DMA_TxIntrHandler':
+../src/app.c:318:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA_RxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_test_intr.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_test_intr_bsp/ps7_cortexa9_0/lib -o "ucos_test_intr.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_test_intr.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_test_intr.elf  |tee "ucos_test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75492	    116	  38560	 114168	  1bdf8	ucos_test_intr.elf
+'Finished building: ucos_test_intr.elf.size'
+' '
+10:24:29 **** Auto Build of configuration Debug for project ucos_test_intr ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_test_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+../src/app.c: In function 'DMA0Task':
+../src/app.c:229:44: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+         UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA_TxIntrHandler, &AxiDma);
+                                            ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+../src/app.c: In function 'DMA_TxIntrHandler':
+../src/app.c:318:40: warning: passing argument 4 of 'UCOS_IntVectSet' from incompatible pointer type
+     UCOS_IntVectSet(62, 0, DEF_BIT_00, DMA_RxIntrHandler, &AxiDma);
+                                        ^
+In file included from ../src/app.c:66:0:
+../../ucos_test_intr_bsp/ps7_cortexa9_0/include/ucos_int.h:73:13: note: expected 'UCOS_INT_FNCT_PTR' but argument is of type 'void (*)(void *)'
+ CPU_BOOLEAN UCOS_IntVectSet (CPU_INT32U         int_id,
+             ^
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_test_intr.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_test_intr_bsp/ps7_cortexa9_0/lib -o "ucos_test_intr.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_test_intr.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_test_intr.elf  |tee "ucos_test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75492	    116	  38560	 114168	  1bdf8	ucos_test_intr.elf
+'Finished building: ucos_test_intr.elf.size'
+' '
+10:24:36 **** Incremental Build of configuration Debug for project ucos_test_intr ****
+make all 
+make: Rien à faire pour « all ».
+10:29:28 **** Build of project ucos_2_task_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_0/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_common_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_common_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_cpu_cortexa9_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_cpu_cortexa9_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_emacps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_emacps_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_osiii_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_osiii_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_scuc_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scuc_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_scugic_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scugic_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_scutimer_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scutimer_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_standalone_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_standalone_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_ttcps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_ttcps_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_uartps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_uartps_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_usbps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_usbps_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_0/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axidma"
+In file included from xaxidma.h:470:0,
+                 from xaxidma.c:83:
+xaxidma.c: In function 'XAxiDma_Reset':
+xaxidma_bdring.h:238:26: warning: assignment makes pointer from integer without a cast
+    (RingPtr)->BdaRestart =      \
+                          ^
+xaxidma.c:313:3: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+   XAxiDma_BdRingSnapShotCurrBd(TxRingPtr);
+   ^
+xaxidma_bdring.h:243:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:313:3: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+   XAxiDma_BdRingSnapShotCurrBd(TxRingPtr);
+   ^
+xaxidma_bdring.h:248:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:313:3: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+   XAxiDma_BdRingSnapShotCurrBd(TxRingPtr);
+   ^
+xaxidma_bdring.h:238:26: warning: assignment makes pointer from integer without a cast
+    (RingPtr)->BdaRestart =      \
+                          ^
+xaxidma.c:319:4: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+    XAxiDma_BdRingSnapShotCurrBd(RxRingPtr);
+    ^
+xaxidma_bdring.h:243:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:319:4: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+    XAxiDma_BdRingSnapShotCurrBd(RxRingPtr);
+    ^
+xaxidma_bdring.h:248:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:319:4: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+    XAxiDma_BdRingSnapShotCurrBd(RxRingPtr);
+    ^
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_common_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_common_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uC/OS Common Components"
+c:\xilinx\sdk\2015.4\gnu\arm\nt\bin\../lib/gcc/arm-xilinx-eabi/4.9.2/../../../../arm-xilinx-eabi/bin/ar.exe: creating ../../../lib/libucos.a
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_cpu_cortexa9_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_cpu_cortexa9_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_emacps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_emacps_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_scuc"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_osiii_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_osiii_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uC/OS-III"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_scuc_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scuc_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_l2cachec"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_scugic_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scugic_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_scutimer_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scutimer_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_standalone_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_standalone_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_ttcps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_ttcps_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_uartps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_uartps_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_usbps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_usbps_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uC/OS"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+10:30:15 **** Build of configuration Debug for project ucos_2_task ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_2_task_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_2_task.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_2_task_bsp/ps7_cortexa9_0/lib -o "ucos_2_task.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_2_task.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_2_task.elf  |tee "ucos_2_task.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  58640	     20	  34528	  93188	  16c04	ucos_2_task.elf
+'Finished building: ucos_2_task.elf.size'
+' '
+10:32:21 **** Auto Build of project ucos_2_task_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_0/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_common_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_common_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_cpu_cortexa9_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_cpu_cortexa9_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_emacps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_emacps_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_osiii_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_osiii_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_scuc_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scuc_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_scugic_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scugic_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_scutimer_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scutimer_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_standalone_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_standalone_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_ttcps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_ttcps_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_uartps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_uartps_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_usbps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_usbps_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_0/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axidma"
+In file included from xaxidma.h:470:0,
+                 from xaxidma.c:83:
+xaxidma.c: In function 'XAxiDma_Reset':
+xaxidma_bdring.h:238:26: warning: assignment makes pointer from integer without a cast
+    (RingPtr)->BdaRestart =      \
+                          ^
+xaxidma.c:313:3: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+   XAxiDma_BdRingSnapShotCurrBd(TxRingPtr);
+   ^
+xaxidma_bdring.h:243:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:313:3: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+   XAxiDma_BdRingSnapShotCurrBd(TxRingPtr);
+   ^
+xaxidma_bdring.h:248:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:313:3: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+   XAxiDma_BdRingSnapShotCurrBd(TxRingPtr);
+   ^
+xaxidma_bdring.h:238:26: warning: assignment makes pointer from integer without a cast
+    (RingPtr)->BdaRestart =      \
+                          ^
+xaxidma.c:319:4: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+    XAxiDma_BdRingSnapShotCurrBd(RxRingPtr);
+    ^
+xaxidma_bdring.h:243:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:319:4: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+    XAxiDma_BdRingSnapShotCurrBd(RxRingPtr);
+    ^
+xaxidma_bdring.h:248:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:319:4: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+    XAxiDma_BdRingSnapShotCurrBd(RxRingPtr);
+    ^
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_common_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_common_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uC/OS Common Components"
+c:\xilinx\sdk\2015.4\gnu\arm\nt\bin\../lib/gcc/arm-xilinx-eabi/4.9.2/../../../../arm-xilinx-eabi/bin/ar.exe: creating ../../../lib/libucos.a
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_cpu_cortexa9_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_cpu_cortexa9_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_emacps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_emacps_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_scuc"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_osiii_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_osiii_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uC/OS-III"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_scuc_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scuc_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_l2cachec"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_scugic_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scugic_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_scutimer_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scutimer_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_standalone_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_standalone_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_ttcps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_ttcps_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_uartps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_uartps_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_usbps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_usbps_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uC/OS"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+10:33:06 **** Auto Build of configuration Debug for project ucos_2_task ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos_2_task_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos_2_task.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos_2_task_bsp/ps7_cortexa9_0/lib -o "ucos_2_task.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos_2_task.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos_2_task.elf  |tee "ucos_2_task.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61144	     40	  34576	  95760	  17610	ucos_2_task.elf
+'Finished building: ucos_2_task.elf.size'
+' '
