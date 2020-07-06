@@ -1,0 +1,6 @@
+13:24:26 **** Incremental Build of configuration Default for project test ****
+make all 
+make: *** Pas de règle pour fabriquer la cible « all ». Arrêt.
+
+13:24:26 Build Finished (took 172ms)
+

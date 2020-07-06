@@ -1,0 +1,21 @@
+09:32:47 **** Build of configuration Debug for project testtt ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../testtt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+'Finished building: ../src/app.c'
+' '
+'Building target: testtt.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testtt_bsp/ps7_cortexa9_0/lib -o "testtt.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: testtt.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size testtt.elf  |tee "testtt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  51872	     20	  42384	  94276	  17044	testtt.elf
+'Finished building: testtt.elf.size'
+' '
+
+09:32:50 Build Finished (took 2s.558ms)
+

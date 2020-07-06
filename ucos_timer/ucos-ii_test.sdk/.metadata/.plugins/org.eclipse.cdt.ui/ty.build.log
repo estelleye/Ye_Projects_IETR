@@ -1,0 +1,63 @@
+16:09:32 **** Build of configuration Debug for project ty ****
+make all 
+'Building file: ../src/port/guest_os_fctns.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/port/guest_os_fctns.o" -I../../ty_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/port/guest_os_fctns.d" -MT"src/port/guest_os_fctns.d" -o "src/port/guest_os_fctns.o" "../src/port/guest_os_fctns.c"
+'Finished building: ../src/port/guest_os_fctns.c'
+' '
+'Building file: ../src/port/performance.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/port/performance.o" -I../../ty_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/port/performance.d" -MT"src/port/performance.d" -o "src/port/performance.o" "../src/port/performance.c"
+../src/port/performance.c: In function 'Xil_Time_SetTime':
+../src/port/performance.c:25:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  Xil_Out32(GLOBAL_TMR_BASEADDR + GTIMER_CONTROL_OFFSET, 0x0);
+  ^
+../src/port/performance.c: In function 'timeprint_low':
+../src/port/performance.c:40:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  low = Xil_In32(GLOBAL_TMR_BASEADDR + GTIMER_COUNTER_LOWER_OFFSET);
+  ^
+../src/port/performance.c:41:2: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+  xil_printf ("%x", low);
+  ^
+'Finished building: ../src/port/performance.c'
+' '
+'Building file: ../src/port/syscall_list.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/port/syscall_list.o" -I../../ty_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/port/syscall_list.d" -MT"src/port/syscall_list.d" -o "src/port/syscall_list.o" "../src/port/syscall_list.c"
+../src/port/syscall_list.c: In function 'sys_mbox_read':
+../src/port/syscall_list.c:109:29: warning: passing argument 3 of 'syscall' makes integer from pointer without a cast
+  return syscall(14, box_id, message, 0);
+                             ^
+In file included from ../src/port/syscall_list.c:8:0:
+../src/port/syscall.h:13:22: note: expected 'long unsigned int' but argument is of type 'long unsigned int *'
+ extern unsigned long syscall(unsigned long, unsigned long,  unsigned long,  unsigned long);
+                      ^
+../src/port/syscall_list.c: In function 'sys_print':
+../src/port/syscall_list.c:119:15: warning: passing argument 2 of 'syscall' makes integer from pointer without a cast
+  syscall (32, ptr, 0, 0);
+               ^
+In file included from ../src/port/syscall_list.c:8:0:
+../src/port/syscall.h:13:22: note: expected 'long unsigned int' but argument is of type 'const char *'
+ extern unsigned long syscall(unsigned long, unsigned long,  unsigned long,  unsigned long);
+                      ^
+'Finished building: ../src/port/syscall_list.c'
+' '
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ty_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+'Finished building: ../src/app.c'
+' '
+'Building target: ty.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ty_bsp/ps7_cortexa9_0/lib -o "ty.elf"  ./src/port/guest_os_fctns.o ./src/port/guest_os_start.o ./src/port/guest_os_start_pre.o ./src/port/performance.o ./src/port/syscall.o ./src/port/syscall_list.o  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ty.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ty.elf  |tee "ty.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  39100	   1120	  39444	  79664	  13730	ty.elf
+'Finished building: ty.elf.size'
+' '
+
+16:09:35 Build Finished (took 2s.492ms)
+

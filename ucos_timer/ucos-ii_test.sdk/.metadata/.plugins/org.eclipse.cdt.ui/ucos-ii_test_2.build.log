@@ -1,0 +1,21 @@
+08:18:57 **** Auto Build of configuration Debug for project ucos-ii_test_2 ****
+make all 
+'Building file: ../src/app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app.o" -I../../ucos-ii_test_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app.d" -MT"src/app.d" -o "src/app.o" "../src/app.c"
+'Finished building: ../src/app.c'
+' '
+'Building target: ucos-ii_test_2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ucos-ii_test_2_bsp/ps7_cortexa9_0/lib -o "ucos-ii_test_2.elf"  ./src/app.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+'Finished building target: ucos-ii_test_2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ucos-ii_test_2.elf  |tee "ucos-ii_test_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  51872	     20	  42384	  94276	  17044	ucos-ii_test_2.elf
+'Finished building: ucos-ii_test_2.elf.size'
+' '
+
+08:18:58 Build Finished (took 968ms)
+

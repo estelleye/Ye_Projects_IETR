@@ -1,0 +1,6 @@
+09:26:20 **** Auto Build of project ucos-ii_test_2_bsp ****
+make -k all 
+make: *** Pas de règle pour fabriquer la cible « all ».
+
+09:26:21 Build Finished (took 100ms)
+

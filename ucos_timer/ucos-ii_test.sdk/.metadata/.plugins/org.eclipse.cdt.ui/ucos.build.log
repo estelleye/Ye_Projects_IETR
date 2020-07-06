@@ -1,0 +1,6 @@
+15:10:14 **** Build of configuration Default for project ucos ****
+make all 
+make: *** Pas de règle pour fabriquer la cible « all ». Arrêt.
+
+15:10:14 Build Finished (took 109ms)
+

@@ -1,0 +1,31 @@
+08:54:34 **** Auto Build of configuration Debug for project test_2 ****
+make all 
+'Building file: ../src/app_hooks.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app_hooks.o" -I../../test_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/app_hooks.d" -MT"src/app_hooks.d" -o "src/app_hooks.o" "../src/app_hooks.c"
+'Finished building: ../src/app_hooks.c'
+' '
+'Building target: test_2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_2_bsp/ps7_cortexa9_0/lib -o "test_2.elf"  ./src/port/guest_os_fctns.o ./src/port/guest_os_start.o ./src/port/guest_os_start_pre.o ./src/port/performance.o ./src/port/syscall.o ./src/port/syscall_list.o  ./src/app.o ./src/app_hooks.o   -Wl,--start-group,-lucos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lucos,-lgcc,-lc,--end-group
+../../test_2_bsp/ps7_cortexa9_0/lib\libucos.a(os_cpu_c.o): In function `OSTaskCreateHook':
+D:\Xilinx_Vivado\ucos-ii_test\ucos-ii_test.sdk\test_2_bsp\ps7_cortexa9_0\libsrc\ucos_osii_v1_41\src/uCOS-II/Ports/ARM-Cortex-A/Generic/GNU/os_cpu_c.c:156: undefined reference to `App_TaskCreateHook'
+../../test_2_bsp/ps7_cortexa9_0/lib\libucos.a(os_cpu_c.o): In function `OSTaskDelHook':
+D:\Xilinx_Vivado\ucos-ii_test\ucos-ii_test.sdk\test_2_bsp\ps7_cortexa9_0\libsrc\ucos_osii_v1_41\src/uCOS-II/Ports/ARM-Cortex-A/Generic/GNU/os_cpu_c.c:181: undefined reference to `App_TaskDelHook'
+../../test_2_bsp/ps7_cortexa9_0/lib\libucos.a(os_cpu_c.o): In function `OSTaskIdleHook':
+D:\Xilinx_Vivado\ucos-ii_test\ucos-ii_test.sdk\test_2_bsp\ps7_cortexa9_0\libsrc\ucos_osii_v1_41\src/uCOS-II/Ports/ARM-Cortex-A/Generic/GNU/os_cpu_c.c:206: undefined reference to `App_TaskIdleHook'
+../../test_2_bsp/ps7_cortexa9_0/lib\libucos.a(os_cpu_c.o): In function `OSTaskReturnHook':
+D:\Xilinx_Vivado\ucos-ii_test\ucos-ii_test.sdk\test_2_bsp\ps7_cortexa9_0\libsrc\ucos_osii_v1_41\src/uCOS-II/Ports/ARM-Cortex-A/Generic/GNU/os_cpu_c.c:229: undefined reference to `App_TaskReturnHook'
+../../test_2_bsp/ps7_cortexa9_0/lib\libucos.a(os_cpu_c.o): In function `OSTaskStatHook':
+D:\Xilinx_Vivado\ucos-ii_test\ucos-ii_test.sdk\test_2_bsp\ps7_cortexa9_0\libsrc\ucos_osii_v1_41\src/uCOS-II/Ports/ARM-Cortex-A/Generic/GNU/os_cpu_c.c:252: undefined reference to `App_TaskStatHook'
+../../test_2_bsp/ps7_cortexa9_0/lib\libucos.a(os_cpu_c.o): In function `OSTaskSwHook':
+D:\Xilinx_Vivado\ucos-ii_test\ucos-ii_test.sdk\test_2_bsp\ps7_cortexa9_0\libsrc\ucos_osii_v1_41\src/uCOS-II/Ports/ARM-Cortex-A/Generic/GNU/os_cpu_c.c:495: undefined reference to `App_TaskSwHook'
+../../test_2_bsp/ps7_cortexa9_0/lib\libucos.a(os_cpu_c.o): In function `OSTCBInitHook':
+D:\Xilinx_Vivado\ucos-ii_test\ucos-ii_test.sdk\test_2_bsp\ps7_cortexa9_0\libsrc\ucos_osii_v1_41\src/uCOS-II/Ports/ARM-Cortex-A/Generic/GNU/os_cpu_c.c:522: undefined reference to `App_TCBInitHook'
+../../test_2_bsp/ps7_cortexa9_0/lib\libucos.a(os_cpu_c.o): In function `OSTimeTickHook':
+D:\Xilinx_Vivado\ucos-ii_test\ucos-ii_test.sdk\test_2_bsp\ps7_cortexa9_0\libsrc\ucos_osii_v1_41\src/uCOS-II/Ports/ARM-Cortex-A/Generic/GNU/os_cpu_c.c:545: undefined reference to `App_TimeTickHook'
+collect2.exe: error: ld returned 1 exit status
+make: *** [test_2.elf] Erreur 1
+
+08:54:34 Build Finished (took 795ms)
+

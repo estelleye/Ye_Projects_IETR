@@ -1,0 +1,277 @@
+10:33:08 **** Auto Build of project ucos-ii_timer_test_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/tmrctr_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_axitimer_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_axitimer_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_common_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_common_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_cpu_cortexa9_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_cpu_cortexa9_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_emacps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_emacps_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_osii_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_osii_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_scuc_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scuc_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_scugic_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scugic_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_scutimer_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scutimer_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_standalone_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_standalone_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_ttcps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_ttcps_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_uartps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_uartps_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_usbps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_usbps_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_v1_41/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/tmrctr_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling tmrctr"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_axitimer_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_axitimer_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_axitimer"
+In file included from ucos_axitimer.c:42:0:
+././ucos_axitimer.h:52:5: error: unknown type name 'CPU_REG32'
+     CPU_REG32 TCSR0;                                            /* Timer 0 Control and Status Register                  */
+     ^
+././ucos_axitimer.h:53:5: error: unknown type name 'CPU_REG32'
+     CPU_REG32 TLR0;                                             /* Timer 0 Load Register                                */
+     ^
+././ucos_axitimer.h:54:5: error: unknown type name 'CPU_REG32'
+     CPU_REG32 TCR0;                                             /* Timer 0 Counter Register                             */
+     ^
+././ucos_axitimer.h:55:5: error: unknown type name 'CPU_REG32'
+     CPU_REG32 RESERVED1[1];                                     /* Reserved                                             */
+     ^
+././ucos_axitimer.h:56:5: error: unknown type name 'CPU_REG32'
+     CPU_REG32 TCSR1;                                            /* Timer 1 Control and Status Register                  */
+     ^
+././ucos_axitimer.h:57:5: error: unknown type name 'CPU_REG32'
+     CPU_REG32 TLR1;                                             /* Timer 1 Load Register                                */
+     ^
+././ucos_axitimer.h:58:5: error: unknown type name 'CPU_REG32'
+     CPU_REG32 TCR1;                                             /* timer 1 Counter Register                             */
+     ^
+././ucos_axitimer.h:59:5: error: unknown type name 'CPU_REG32'
+     CPU_REG32 RESERVED2[1];                                     /* Reserved                                             */
+     ^
+././ucos_axitimer.h:95:5: error: unknown type name 'CPU_INT32U'
+     CPU_INT32U DeviceId;
+     ^
+././ucos_axitimer.h:96:5: error: unknown type name 'CPU_INT32U'
+     CPU_INT32U BaseAddress;
+     ^
+././ucos_axitimer.h:97:5: error: unknown type name 'CPU_INT32U'
+     CPU_INT32U TmrFreq;
+     ^
+././ucos_axitimer.h:98:5: error: unknown type name 'CPU_INT32U'
+     CPU_INT32U IntSource;
+     ^
+././ucos_axitimer.h:102:5: error: unknown type name 'CPU_INT32U'
+     CPU_INT32U   DeviceId;
+     ^
+././ucos_axitimer.h:104:5: error: unknown type name 'CPU_INT32U'
+     CPU_INT32U   TmrFreq;
+     ^
+././ucos_axitimer.h:105:56: error: unknown type name 'CPU_INT32U'
+     void (*Tmr0Callback)(struct ucos_axitimer *handle, CPU_INT32U tmr_nbr);
+                                                        ^
+././ucos_axitimer.h:106:56: error: unknown type name 'CPU_INT32U'
+     void (*Tmr1Callback)(struct ucos_axitimer *handle, CPU_INT32U tmr_nbr);
+                                                        ^
+././ucos_axitimer.h:107:1: warning: no semicolon at end of struct or union
+ } UCOS_AXITIMER;
+ ^
+././ucos_axitimer.h:111:68: error: unknown type name 'CPU_INT32U'
+ typedef void (*AXITIMER_CALLBACK_FNCT_PTR)(AXITIMER_HANDLE handle, CPU_INT32U tmr_nbr);
+                                                                    ^
+././ucos_axitimer.h:120:32: error: unknown type name 'CPU_INT32U'
+ AXITIMER_HANDLE AXITimer_Init (CPU_INT32U      device_id);
+                                ^
+././ucos_axitimer.h:122:1: error: unknown type name 'CPU_BOOLEAN'
+ CPU_BOOLEAN AXITimer_Start (AXITIMER_HANDLE handle,
+ ^
+././ucos_axitimer.h:123:29: error: unknown type name 'CPU_INT32U'
+                             CPU_INT32U      tmr_nbr);
+                             ^
+././ucos_axitimer.h:125:1: error: unknown type name 'CPU_BOOLEAN'
+ CPU_BOOLEAN AXITimer_Stop (AXITIMER_HANDLE handle,
+ ^
+././ucos_axitimer.h:126:28: error: unknown type name 'CPU_INT32U'
+                            CPU_INT32U      tmr_nbr);
+                            ^
+././ucos_axitimer.h:128:1: error: unknown type name 'CPU_BOOLEAN'
+ CPU_BOOLEAN AXITimer_OptSet (AXITIMER_HANDLE handle,
+ ^
+././ucos_axitimer.h:129:30: error: unknown type name 'CPU_INT32U'
+                              CPU_INT32U      tmr_nbr,
+                              ^
+././ucos_axitimer.h:130:30: error: unknown type name 'CPU_INT32U'
+                              CPU_INT32U      opt);
+                              ^
+././ucos_axitimer.h:132:1: error: unknown type name 'CPU_BOOLEAN'
+ CPU_BOOLEAN AXITimer_OptClr (AXITIMER_HANDLE handle,
+ ^
+././ucos_axitimer.h:133:30: error: unknown type name 'CPU_INT32U'
+                              CPU_INT32U      tmr_nbr,
+                              ^
+././ucos_axitimer.h:134:30: error: unknown type name 'CPU_INT32U'
+                              CPU_INT32U      opt);
+                              ^
+././ucos_axitimer.h:136:1: error: unknown type name 'CPU_BOOLEAN'
+ CPU_BOOLEAN AXITimer_IntClr (AXITIMER_HANDLE handle,
+ ^
+././ucos_axitimer.h:137:30: error: unknown type name 'CPU_INT32U'
+                              CPU_INT32U      tmr_nbr);
+                              ^
+././ucos_axitimer.h:139:1: error: unknown type name 'CPU_BOOLEAN'
+ CPU_BOOLEAN AXITimer_LoadSet (AXITIMER_HANDLE handle,
+ ^
+././ucos_axitimer.h:140:31: error: unknown type name 'CPU_INT32U'
+                               CPU_INT32U      tmr_nbr,
+                               ^
+././ucos_axitimer.h:141:31: error: unknown type name 'CPU_INT32U'
+                               CPU_INT32U      cnt_load_val);
+                               ^
+././ucos_axitimer.h:143:1: error: unknown type name 'CPU_INT32U'
+ CPU_INT32U AXITimer_FreqGet (AXITIMER_HANDLE handle);
+ ^
+././ucos_axitimer.h:145:1: error: unknown type name 'CPU_BOOLEAN'
+ CPU_BOOLEAN AXITimer_CallbackSet (AXITIMER_HANDLE            handle,
+ ^
+././ucos_axitimer.h:146:35: error: unknown type name 'CPU_INT32U'
+                                   CPU_INT32U                 tmr_nbr,
+                                   ^
+././ucos_axitimer.h:147:35: error: unknown type name 'AXITIMER_CALLBACK_FNCT_PTR'
+                                   AXITIMER_CALLBACK_FNCT_PTR call_back);
+                                   ^
+././ucos_axitimer.h:150:27: error: unknown type name 'CPU_INT32U'
+                           CPU_INT32U  cpu_id);
+                           ^
+ucos_axitimer.c: In function 'AXITimer_Init':
+ucos_axitimer.c:97:11: error: 'UCOS_AXITIMER' has no member named 'Tmr0Callback'
+     handle->Tmr0Callback = DEF_NULL;
+           ^
+ucos_axitimer.c:98:11: error: 'UCOS_AXITIMER' has no member named 'Tmr1Callback'
+     handle->Tmr1Callback = DEF_NULL;
+           ^
+ucos_axitimer.c:106:25: error: 'AXITimer_IntHandler' undeclared (first use in this function)
+                         AXITimer_IntHandler,
+                         ^
+ucos_axitimer.c:106:25: note: each undeclared identifier is reported only once for each function it appears in
+ucos_axitimer.c: At top level:
+ucos_axitimer.c:444:12: error: conflicting types for 'AXITimer_FreqGet'
+ CPU_INT32U AXITimer_FreqGet (AXITIMER_HANDLE handle)
+            ^
+In file included from ucos_axitimer.c:42:0:
+././ucos_axitimer.h:143:12: note: previous declaration of 'AXITimer_FreqGet' was here
+ CPU_INT32U AXITimer_FreqGet (AXITIMER_HANDLE handle);
+            ^
+ucos_axitimer.c:474:35: error: unknown type name 'AXITIMER_CALLBACK_FNCT_PTR'
+                                   AXITIMER_CALLBACK_FNCT_PTR call_back)
+                                   ^
+ucos_axitimer.c: In function 'AXITimer_IntHandler':
+ucos_axitimer.c:518:19: error: 'UCOS_AXITIMER' has no member named 'Tmr0Callback'
+         if (handle->Tmr0Callback != DEF_NULL) {
+                   ^
+ucos_axitimer.c:519:21: error: 'UCOS_AXITIMER' has no member named 'Tmr0Callback'
+             (*handle->Tmr0Callback)(handle, 0u);
+                     ^
+ucos_axitimer.c:527:19: error: 'UCOS_AXITIMER' has no member named 'Tmr1Callback'
+         if (handle->Tmr1Callback != DEF_NULL) {
+                   ^
+ucos_axitimer.c:528:21: error: 'UCOS_AXITIMER' has no member named 'Tmr1Callback'
+             (*handle->Tmr1Callback)(handle, 1u);
+                     ^
+make[1]: *** [ucos_axitimer.o] Erreur 1
+make[1]: La cible « libs » n'a pas pu être refabriquée à cause d'erreurs.
+make: *** [ps7_cortexa9_0/libsrc/ucos_axitimer_v1_41/src/make.libs] Erreur 2
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_common_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_common_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uC/OS Common Components"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_cpu_cortexa9_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_cpu_cortexa9_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_emacps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_emacps_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_scuc"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_osii_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_osii_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uC/OS-II"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_scuc_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scuc_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_l2cachec"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_scugic_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scugic_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_scutimer_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scutimer_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_standalone_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_standalone_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_ttcps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_ttcps_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_uartps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_uartps_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_usbps_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_usbps_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ucos_usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_v1_41/src"
+make -C ps7_cortexa9_0/libsrc/ucos_v1_41/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uC/OS"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+make: La cible « all » n'a pas pu être refabriquée à cause d'erreurs.
+
+10:33:44 Build Finished (took 35s.792ms)
+

@@ -1,0 +1,6 @@
+14:09:20 **** Incremental Build of configuration Default for project tt ****
+make all 
+make: *** Pas de règle pour fabriquer la cible « all ». Arrêt.
+
+14:09:20 Build Finished (took 110ms)
+

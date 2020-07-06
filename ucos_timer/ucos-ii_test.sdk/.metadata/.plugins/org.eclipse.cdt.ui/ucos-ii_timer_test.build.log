@@ -1,0 +1,6 @@
+10:33:56 **** Auto Build of configuration Debug for project ucos-ii_timer_test ****
+make all 
+make: Rien à faire pour « all ».
+
+10:33:56 Build Finished (took 156ms)
+
