@@ -1,0 +1,135 @@
+10:49:33 **** Auto Build of project test_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/canps_v1_01_a/src"
+make -C ps7_cortexa9_0/libsrc/canps_v1_01_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v1_01_a/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v1_01_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v2_03_a/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v2_03_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v1_05_a/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v1_05_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v1_04_a/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v1_04_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v1_01_a/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v1_01_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v1_03_a/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v1_03_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v2_02_a/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v2_02_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v1_04_a/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v1_04_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v1_02_a/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v1_02_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v1_02_a/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v1_02_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v1_01_a/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v1_01_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v1_04_a/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v1_04_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Running Make include in ps7_cortexa9_0/libsrc/ucosii_v2_00_a/src"
+make -C ps7_cortexa9_0/libsrc/ucosii_v2_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v1_04_a/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v1_04_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Running Make include in ps7_cortexa9_0/libsrc/wdtps_v1_02_a/src"
+make -C ps7_cortexa9_0/libsrc/wdtps_v1_02_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v1_01_a/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v1_01_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Running Make libs in ps7_cortexa9_0/libsrc/canps_v1_01_a/src"
+make -C ps7_cortexa9_0/libsrc/canps_v1_01_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Compiling canps"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v1_01_a/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v1_01_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v2_03_a/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v2_03_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v1_05_a/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v1_05_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v1_04_a/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v1_04_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v1_01_a/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v1_01_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v1_03_a/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v1_03_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v2_02_a/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v2_02_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v1_04_a/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v1_04_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v1_02_a/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v1_02_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v1_02_a/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v1_02_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v1_01_a/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v1_01_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v1_04_a/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v1_04_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucosii_v2_00_a/src"
+make -C ps7_cortexa9_0/libsrc/ucosii_v2_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Compiling uC/OS-II"
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+arm-xilinx-eabi-gcc: error: -mfloat-abi=soft and -mfloat-abi=hard may not be used together
+make[1]: *** [ucosii_libs] Erreur 1
+make[1]: La cible « libs » n'a pas pu être refabriquée à cause d'erreurs.
+make: *** [ps7_cortexa9_0/libsrc/ucosii_v2_00_a/src/make.libs] Erreur 2
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v1_04_a/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v1_04_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/wdtps_v1_02_a/src"
+make -C ps7_cortexa9_0/libsrc/wdtps_v1_02_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Compiling wdtps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v1_01_a/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v1_01_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard"
+"Compiling xadc"
+make: La cible « all » n'a pas pu être refabriquée à cause d'erreurs.
+
+10:50:05 Build Finished (took 31s.309ms)
+

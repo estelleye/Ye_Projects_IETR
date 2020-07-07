@@ -1,0 +1,228 @@
+/*
+*********************************************************************************************************
+*                                            EXAMPLE CODE
+*
+*                          (c) Copyright 2009-2015; Micrium, Inc.; Weston, FL
+*
+*               All rights reserved.  Protected by international copyright laws.
+*
+*               Please feel free to use any application code labeled as 'EXAMPLE CODE' in
+*               your application products.  Example code may be used as is, in whole or in
+*               part, or may be used as a reference only.
+*
+*               Please help us continue to provide the Embedded community with the finest
+*               software available.  Your honesty is greatly appreciated.
+*
+*               You can contact us at www.micrium.com.
+*********************************************************************************************************
+*/
+
+/*
+*********************************************************************************************************
+*                                          SETUP INSTRUCTIONS
+*
+*   This demonstration project illustrate a basic uC/OS-II project with simple "hello world" output.
+*
+*   By default some configuration steps are required to compile this example :
+*
+*   1. Include the require Micrium software components
+*       In the BSP setting dialog in the "overview" section of the left pane the following libraries
+*       should be added to the BSP :
+*
+*           ucos_common
+*           ucos_osii
+*           ucos_standalone
+*
+*   2. Kernel tick source - (Not required on the Zynq-7000 PS)
+*       If a suitable timer is available in your FPGA design it can be used as the kernel tick source.
+*       To do so, in the "ucos" section select a timer for the "kernel_tick_src" configuration option.
+*
+*   3. STDOUT configuration
+*       Output from the print() and UCOS_Print() functions can be redirected to a supported UART. In
+*       the "ucos" section the stdout configuration will list the available UARTs.
+*
+*   Troubleshooting :
+*       By default the Xilinx SDK may not have selected the Micrium drivers for the timer and UART.
+*       If that is the case they must be manually selected in the drivers configuration section.
+*
+*       Finally make sure the FPGA is programmed before debugging.
+*
+*
+*   Remember that this example is provided for evaluation purposes only. Commercial development requires
+*   a valid license from Micrium.
+*********************************************************************************************************
+*/
+
+
+/*
+*********************************************************************************************************
+*                                            INCLUDE FILES
+*********************************************************************************************************
+*/
+
+#include  <stdio.h>
+#include  <Source/ucos_ii.h>
+#include  <ucos_bsp.h>
+#include "xil_printf.h"
+
+#include "xaxidma.h"
+#include "xparameters.h"
+#include "xdebug.h"
+
+#include "port/guest_os_parameters.h"
+#include "port/guest_os_fctns.h"
+#include "port/guest_os_vpsr.h"
+/*
+*********************************************************************************************************
+*                                      LOCAL FUNCTION PROTOTYPES
+*********************************************************************************************************
+*/
+/*
+#define DMA_DEV_ID      XPAR_AXIDMA_0_DEVICE_ID
+
+#define MEM_BASE_ADDR       0x01000000
+
+#define RX_INTR_ID      XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR
+#define TX_INTR_ID      XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR
+
+#define TX_BUFFER_BASE      (MEM_BASE_ADDR + 0x00100000)
+#define RX_BUFFER_BASE      (MEM_BASE_ADDR + 0x00300000)
+
+#define RESET_TIMEOUT_COUNTER   10000
+#define MAX_PKT_LEN     4
+
+static  XAxiDma AxiDma;
+
+#define TEST_START_VALUE 2
+//int Tries = 6;
+int i;
+int Index;
+u8 *TxBufferPtr= (u8 *)TX_BUFFER_BASE;
+u8 *RxBufferPtr= (u8 *)RX_BUFFER_BASE;
+u8 Value;*/
+
+VM_PSR vpsr;
+
+void  MainTask (void *p_arg);
+
+
+/*
+*********************************************************************************************************
+*                                               main()
+*
+* Description : Entry point for C code.
+*
+*********************************************************************************************************
+*/
+
+int main()
+{
+	guest_print("****** uC/OS-II start ******\r\n");
+
+	guest_IRQ_Register(OS_CPU_ARM_ExceptIrqHndlr, (unsigned int)&vpsr);
+
+	guest_ICacheEnable();
+
+	guest_DCacheEnable();
+
+    UCOSStartup(MainTask);
+
+    return 0;
+}
+
+
+/*
+*********************************************************************************************************
+*                                             MainTask()
+*
+* Description : Startup task example code.
+*
+* Returns     : none.
+*
+* Created by  : main().
+*********************************************************************************************************
+*/
+
+void  MainTask (void *p_arg)
+{
+
+    UCOS_Print ("Hello world from the main task\r\n");
+
+  /*  int Status;
+    XAxiDma_Config *CfgPtr;
+
+    xil_printf("\r\n----DMA Test----\r\n");
+    xil_printf("PKT_LEN=%d\r\n",MAX_PKT_LEN);
+
+    // Initialize the configure
+     CfgPtr = XAxiDma_LookupConfig(DMA_DEV_ID);
+     if (!CfgPtr) {
+         xil_printf("No config found for %d\r\n", DMA_DEV_ID);
+         //return XST_FAILURE;
+     }
+
+     // Initialize the AXI DMA driver
+     Status = XAxiDma_CfgInitialize(&AxiDma, CfgPtr);
+     if (Status != XST_SUCCESS) {
+         xil_printf("Initialization failed: %d\r\n", Status);
+        // return XST_FAILURE;
+     }
+
+     if(XAxiDma_HasSg(&AxiDma)){
+         xil_printf("Device configured as SG mode \r\n");
+         //return XST_FAILURE;
+     }
+
+     // Disable interrupts, we use polling mode
+     XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK, XAXIDMA_DEVICE_TO_DMA);
+     XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK, XAXIDMA_DMA_TO_DEVICE);
+
+     Value = TEST_START_VALUE;
+
+     for(Index = 0; Index < MAX_PKT_LEN; Index ++) {
+             TxBufferPtr[Index] = Value;
+             Value = (Value + 1) & 0xFF;
+     }
+
+    Xil_DCacheFlushRange((u32)TxBufferPtr, MAX_PKT_LEN);
+
+    Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) RxBufferPtr,
+                    MAX_PKT_LEN, XAXIDMA_DEVICE_TO_DMA);
+        if (Status != XST_SUCCESS) {}//return XST_FAILURE;}
+
+    Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) TxBufferPtr,
+                    MAX_PKT_LEN, XAXIDMA_DMA_TO_DEVICE);
+        if (Status != XST_SUCCESS) {}//return XST_FAILURE;}
+
+
+        while ((XAxiDma_Busy(&AxiDma,XAXIDMA_DEVICE_TO_DMA)) ||
+                (XAxiDma_Busy(&AxiDma,XAXIDMA_DMA_TO_DEVICE))) {
+                    /* Wait */
+            	//n++;
+            	//if(n == 10)
+            	//	break;
+          /*  }
+
+
+        Xil_DCacheInvalidateRange((u32)RxBufferPtr, MAX_PKT_LEN);
+
+        for(Index = 0; Index < MAX_PKT_LEN; Index++) {
+            if (RxBufferPtr[Index] != TxBufferPtr[Index]) {
+                xil_printf("Data error %d: %x\r\n", Index, RxBufferPtr[Index]);
+                //return XST_FAILURE;
+            }
+            xil_printf("Data : %d: %x\r\n", Index, RxBufferPtr[Index]);
+        }
+
+
+
+    xil_printf("--- Exiting Test --- \r\n");*/
+
+
+    while (DEF_TRUE) {
+        OSTimeDlyHMSM(0, 0, 10, 0);
+        UCOS_Print("Periodic output every 10 seconds from the main task\r\n");
+    }
+
+}
+
