@@ -1,0 +1,30 @@
+13:01:58 **** Incremental Build of configuration Default for project user_git ****
+make all 
+'Building file: src/HWManager/HW_Task_Manager.cc'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -fpermissive -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include -I./include -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/HW_Task_Manager.d" -MT"build/HW_Task_Manager.o" -o "build/HW_Task_Manager.o" "src/HWManager/HW_Task_Manager.cc"
+In file included from src/HWManager/HW_Task_Manager.cc:21:0:
+src/HWManager/HWManager.h:154:32: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  Solution s = {false,nonvalid,0};
+                                ^
+src/HWManager/HWManager.h:154:32: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+src/HWManager/HWManager.h:164:32: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  Solution s = {false,nonvalid,0};
+                                ^
+src/HWManager/HWManager.h:164:32: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+'Finished building: src/HWManager/HW_Task_Manager.cc'
+' '
+'Building target: user.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -nostartfiles -n -mfloat-abi=hard -Wl,-T -Wl,./src/user.ld -L"../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/lib"  -o "user.elf" ./build/app.o ./build/IVC_Channel.o ./build/IntEentry.o ./build/_exit.o ./build/abort.o ./build/print.o ./build/start.o ./build/irq.o ./build/syscall.o ./build/syscall_list.o ./build/user.o ./build/vpsr.o ./build/HW_Task_Manager.o ./build/HWManager_irq.o ./build/HWmanager_Entry.o ./build/performance.o ./build/devcfg.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: user.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size user.elf  |tee "user.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20996	   4200	   8557	  33753	   83d9	user.elf
+'Finished building: user.elf.size'
+' '
+
+13:02:00 Build Finished (took 1s.836ms)
+

@@ -1,0 +1,294 @@
+08:27:44 **** Incremental Build of configuration Default for project kernel_git ****
+make all 
+'Building file: src/_exit.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/_exit.d" -MT"build/_exit.o" -o "build/_exit.o" "src/_exit.c"
+'Finished building: src/_exit.c'
+'Building file: src/decode.cc'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/decode.d" -MT"build/decode.o" -o "build/decode.o" "src/decode.cc"
+'Finished building: src/decode.cc'
+' '
+'Building file: src/demo.cc'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/demo.d" -MT"build/demo.o" -o "build/demo.o" "src/demo.cc"
+'Finished building: src/demo.cc'
+' '
+'Building file: src/ec.cc'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/ec.d" -MT"build/ec.o" -o "build/ec.o" "src/ec.cc"
+In file included from src/ec.cc:35:0:
+../boards/zedboard/custom_bsp/include/performance.h:51:0: warning: "PMDATA_MAX" redefined
+ #define PMDATA_MAX      PM_DATA_SIZE >> 2
+ ^
+../boards/zedboard/custom_bsp/include/performance.h:35:0: note: this is the location of the previous definition
+ #define PMDATA_MAX 0x1000
+ ^
+In file included from ./include/ec.h:22:0,
+                 from src/ec.cc:22:
+./include/vgic.h:73:39: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+ const unsigned long ReserveIrqMask[3] {0x2000FFFF,0x00000800,0x04040000};
+                                       ^
+In file included from src/ec.cc:22:0:
+./include/ec.h:74:76: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   vGicContext vGicState = {0, 0, 0, 0, {0,0,0},{0,0,0}, {0,0,0,0,0,0}, 0, 0};
+                                                                            ^
+./include/ec.h:135:64: warning: 'regparm' attribute directive ignored [-Wattributes]
+      static void syscall_handler (uint8) asm ("syscall_handler");
+                                                                ^
+./include/ec.h:138:51: warning: 'regparm' attribute directive ignored [-Wattributes]
+      static void irq_handler () asm ("irq_handler");
+                                                   ^
+./include/ec.h:74:76: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+   vGicContext vGicState = {0, 0, 0, 0, {0,0,0},{0,0,0}, {0,0,0,0,0,0}, 0, 0};
+                                                                            ^
+src/ec.cc: In member function 'void Ec::enqueue()':
+src/ec.cc:526:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if (prio > prio_top)
+           ^
+src/ec.cc: In member function 'void Ec::dequeue()':
+src/ec.cc:547:10: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(prio == prio_top){    /* prio == prio_top: prio_top declines */
+          ^
+src/ec.cc: In static member function 'static void Ec::sys_create_pdir()':
+src/ec.cc:954:79: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+    static_cast<mword*>(Kalloc::phys2virt(reinterpret_cast<mword>(&KERN_PDIR))+0x3000),
+                                                                               ^
+src/ec.cc: In static member function 'static void Ec::und_handler_vfp()':
+src/ec.cc:1099:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(Fpc::fpc_current->ec_id != current->id){
+                                  ^
+src/ec.cc:1075:6: warning: variable 'sw_flag' set but not used [-Wunused-but-set-variable]
+  int sw_flag = 0 ;
+      ^
+src/ec.cc: In static member function 'static void Ec::ret_user_sysexit()':
+src/ec.cc:248:1: warning: 'noreturn' function does return
+ }
+ ^
+In file included from src/ec.cc:22:0:
+./include/ec.h: In member function 'void Ec::set_current()':
+./include/ec.h:126:6: warning: 'noreturn' function does return
+      }
+      ^
+'Finished building: src/ec.cc'
+' '
+'Building file: src/exception.cc'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/exception.d" -MT"build/exception.o" -o "build/exception.o" "src/exception.cc"
+In file included from src/exception.cc:50:0:
+../boards/zedboard/custom_bsp/include/performance.h:51:0: warning: "PMDATA_MAX" redefined
+ #define PMDATA_MAX      PM_DATA_SIZE >> 2
+ ^
+../boards/zedboard/custom_bsp/include/performance.h:35:0: note: this is the location of the previous definition
+ #define PMDATA_MAX 0x1000
+ ^
+'Finished building: src/exception.cc'
+' '
+'Building file: src/init.cc'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/init.d" -MT"build/init.o" -o "build/init.o" "src/init.cc"
+In file included from src/init.cc:29:0:
+../boards/zedboard/custom_bsp/include/performance.h:51:0: warning: "PMDATA_MAX" redefined
+ #define PMDATA_MAX      PM_DATA_SIZE >> 2
+ ^
+../boards/zedboard/custom_bsp/include/performance.h:35:0: note: this is the location of the previous definition
+ #define PMDATA_MAX 0x1000
+ ^
+In file included from src/init.cc:20:0:
+./include/vgic.h:73:39: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+ const unsigned long ReserveIrqMask[3] {0x2000FFFF,0x00000800,0x04040000};
+                                       ^
+In file included from src/init.cc:21:0:
+./include/ec.h:74:76: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   vGicContext vGicState = {0, 0, 0, 0, {0,0,0},{0,0,0}, {0,0,0,0,0,0}, 0, 0};
+                                                                            ^
+./include/ec.h:135:64: warning: 'regparm' attribute directive ignored [-Wattributes]
+      static void syscall_handler (uint8) asm ("syscall_handler");
+                                                                ^
+./include/ec.h:138:51: warning: 'regparm' attribute directive ignored [-Wattributes]
+      static void irq_handler () asm ("irq_handler");
+                                                   ^
+./include/ec.h:74:76: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+   vGicContext vGicState = {0, 0, 0, 0, {0,0,0},{0,0,0}, {0,0,0,0,0,0}, 0, 0};
+                                                                            ^
+src/init.cc:112:27: warning: 'regparm' attribute directive ignored [-Wattributes]
+ void bootstrap (mword addr)
+                           ^
+'Finished building: src/init.cc'
+' '
+'Building file: src/kalloc.cc'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/kalloc.d" -MT"build/kalloc.o" -o "build/kalloc.o" "src/kalloc.cc"
+'Finished building: src/kalloc.cc'
+' '
+'Building file: src/msg.cc'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/msg.d" -MT"build/msg.o" -o "build/msg.o" "src/msg.cc"
+'Finished building: src/msg.cc'
+' '
+'Building file: src/print.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/print.d" -MT"build/print.o" -o "build/print.o" "src/print.c"
+'Finished building: src/print.c'
+'Building file: src/ptab.cc'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/ptab.d" -MT"build/ptab.o" -o "build/ptab.o" "src/ptab.cc"
+src/ptab.cc: In static member function 'static void Ptab::set_page_attribute(mword, mword, int, int)':
+src/ptab.cc:220:59: warning: suggest parentheses around arithmetic in operand of '|' [-Wparentheses]
+     lv2_ptab[(virt>>12)&0xff] = lv2_ptab[(virt>>12)&0xff] & ~LV2_PAGE_ENTRY_AP_MASK | LV2_PAGE_ENTRY_AP_RO;
+                                                           ^
+src/ptab.cc:223:59: warning: suggest parentheses around arithmetic in operand of '|' [-Wparentheses]
+     lv2_ptab[(virt>>12)&0xff] = lv2_ptab[(virt>>12)&0xff] & ~LV2_PAGE_ENTRY_AP_MASK | LV2_PAGE_ENTRY_AP_RW;
+                                                           ^
+'Finished building: src/ptab.cc'
+' '
+'Building file: src/ualloc.cc'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/ualloc.d" -MT"build/ualloc.o" -o "build/ualloc.o" "src/ualloc.cc"
+'Finished building: src/ualloc.cc'
+' '
+'Building file: src/vec.cc'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/vec.d" -MT"build/vec.o" -o "build/vec.o" "src/vec.cc"
+'Finished building: src/vec.cc'
+' '
+'Building file: src/vfp.cc'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/vfp.d" -MT"build/vfp.o" -o "build/vfp.o" "src/vfp.cc"
+In file included from ./include/ec.h:22:0,
+                 from ./include/vfp.h:11,
+                 from src/vfp.cc:9:
+./include/vgic.h:73:39: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+ const unsigned long ReserveIrqMask[3] {0x2000FFFF,0x00000800,0x04040000};
+                                       ^
+In file included from ./include/vfp.h:11:0,
+                 from src/vfp.cc:9:
+./include/ec.h:74:76: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   vGicContext vGicState = {0, 0, 0, 0, {0,0,0},{0,0,0}, {0,0,0,0,0,0}, 0, 0};
+                                                                            ^
+./include/ec.h:135:64: warning: 'regparm' attribute directive ignored [-Wattributes]
+      static void syscall_handler (uint8) asm ("syscall_handler");
+                                                                ^
+./include/ec.h:138:51: warning: 'regparm' attribute directive ignored [-Wattributes]
+      static void irq_handler () asm ("irq_handler");
+                                                   ^
+./include/ec.h:74:76: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+   vGicContext vGicState = {0, 0, 0, 0, {0,0,0},{0,0,0}, {0,0,0,0,0,0}, 0, 0};
+                                                                            ^
+'Finished building: src/vfp.cc'
+' '
+'Building file: src/vgic.cc'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/vgic.d" -MT"build/vgic.o" -o "build/vgic.o" "src/vgic.cc"
+In file included from src/vgic.cc:18:0:
+../boards/zedboard/custom_bsp/include/performance.h:51:0: warning: "PMDATA_MAX" redefined
+ #define PMDATA_MAX      PM_DATA_SIZE >> 2
+ ^
+../boards/zedboard/custom_bsp/include/performance.h:35:0: note: this is the location of the previous definition
+ #define PMDATA_MAX 0x1000
+ ^
+In file included from ./include/ec.h:22:0,
+                 from src/vgic.cc:21:
+./include/vgic.h:73:39: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+ const unsigned long ReserveIrqMask[3] {0x2000FFFF,0x00000800,0x04040000};
+                                       ^
+In file included from src/vgic.cc:21:0:
+./include/ec.h:74:76: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   vGicContext vGicState = {0, 0, 0, 0, {0,0,0},{0,0,0}, {0,0,0,0,0,0}, 0, 0};
+                                                                            ^
+./include/ec.h:135:64: warning: 'regparm' attribute directive ignored [-Wattributes]
+      static void syscall_handler (uint8) asm ("syscall_handler");
+                                                                ^
+./include/ec.h:138:51: warning: 'regparm' attribute directive ignored [-Wattributes]
+      static void irq_handler () asm ("irq_handler");
+                                                   ^
+./include/ec.h:74:76: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+   vGicContext vGicState = {0, 0, 0, 0, {0,0,0},{0,0,0}, {0,0,0,0,0,0}, 0, 0};
+                                                                            ^
+'Finished building: src/vgic.cc'
+' '
+'Building file: ../boards/zedboard/custom_bsp/custom_api.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/custom_api.d" -MT"build/custom_api.o" -o "build/custom_api.o" "../boards/zedboard/custom_bsp/custom_api.c"
+'Finished building: ../boards/zedboard/custom_bsp/custom_api.c'
+' '	
+'Building file: ../boards/zedboard/custom_bsp/performance.cc'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/performance.d" -MT"build/performance.o" -o "build/performance.o" "../boards/zedboard/custom_bsp/performance.cc"
+'Finished building: ../boards/zedboard/custom_bsp/performance.cc'
+' '	
+'Building file: src/private_timer.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/private_timer.d" -MT"build/private_timer.o" -o "build/private_timer.o" "src/private_timer.c"
+'Finished building: src/private_timer.c'
+'Building file: ../arch/zynq/timer.cc'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/timer.d" -MT"build/timer.o" -o "build/timer.o" "../arch/zynq/timer.cc"
+In file included from ../arch/zynq/timer.cc:9:0:
+../boards/zedboard/custom_bsp/include/performance.h:51:0: warning: "PMDATA_MAX" redefined
+ #define PMDATA_MAX      PM_DATA_SIZE >> 2
+ ^
+../boards/zedboard/custom_bsp/include/performance.h:35:0: note: this is the location of the previous definition
+ #define PMDATA_MAX 0x1000
+ ^
+In file included from ./include/ec.h:22:0,
+                 from ../arch/zynq/timer.cc:12:
+./include/vgic.h:73:39: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+ const unsigned long ReserveIrqMask[3] {0x2000FFFF,0x00000800,0x04040000};
+                                       ^
+In file included from ../arch/zynq/timer.cc:12:0:
+./include/ec.h:74:76: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   vGicContext vGicState = {0, 0, 0, 0, {0,0,0},{0,0,0}, {0,0,0,0,0,0}, 0, 0};
+                                                                            ^
+./include/ec.h:135:64: warning: 'regparm' attribute directive ignored [-Wattributes]
+      static void syscall_handler (uint8) asm ("syscall_handler");
+                                                                ^
+./include/ec.h:138:51: warning: 'regparm' attribute directive ignored [-Wattributes]
+      static void irq_handler () asm ("irq_handler");
+                                                   ^
+./include/ec.h:74:76: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+   vGicContext vGicState = {0, 0, 0, 0, {0,0,0},{0,0,0}, {0,0,0,0,0,0}, 0, 0};
+                                                                            ^
+'Finished building: ../arch/zynq/timer.cc'
+' '	
+'Building file: cpu/entry.S'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/entry.d" -MT"build/entry.o" -o "build/entry.o" "cpu/entry.S"
+'Finished building: cpu/entry.S'
+' '
+'Building file: cpu/head.S'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/head.d" -MT"build/head.o" -o "build/head.o" "cpu/head.S"
+'Finished building: cpu/head.S'
+' '
+'Building file: cpu/shutdown.cc'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/shutdown.d" -MT"build/shutdown.o" -o "build/shutdown.o" "cpu/shutdown.cc"
+'Finished building: cpu/shutdown.cc'
+' '
+'Creating directories' 
+' '
+'Building file: cpu/tlb-v7.S'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/tlb-v7.d" -MT"build/tlb-v7.o" -o "build/tlb-v7.o" "cpu/tlb-v7.S"
+'Finished building: cpu/tlb-v7.S'
+' '
+'Building file: cpu/vector.S'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/vector.d" -MT"build/vector.o" -o "build/vector.o" "cpu/vector.S"
+'Finished building: cpu/vector.S'
+' '
+'Building target: kerone.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -nostartfiles -n -mfloat-abi=hard -Wl,-T -Wl,./src/hypervisor.ld -L"../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/lib" -o "kerone.elf" ./build/_exit.o ./build/decode.o ./build/demo.o ./build/ec.o ./build/exception.o ./build/init.o ./build/kalloc.o ./build/msg.o ./build/print.o ./build/ptab.o ./build/ualloc.o ./build/vec.o ./build/vfp.o ./build/vgic.o ./build/custom_api.o ./build/performance.o ./build/private_timer.o ./build/timer.o ./build/entry.o ./build/head.o ./build/shutdown.o ./build/tlb-v7.o ./build/vector.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: kerone.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size kerone.elf  |tee "kerone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  39440	   1816	20928413	20969669	13ff8c5	kerone.elf
+'Finished building: kerone.elf.size'
+' '
+
+08:28:02 Build Finished (took 18s.218ms)
+

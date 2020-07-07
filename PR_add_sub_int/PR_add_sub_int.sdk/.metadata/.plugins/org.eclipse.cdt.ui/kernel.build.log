@@ -1,0 +1,6 @@
+08:17:57 **** Incremental Build of configuration Default for project kernel ****
+make all 
+make: Rien à faire pour « all ».
+
+08:17:57 Build Finished (took 345ms)
+

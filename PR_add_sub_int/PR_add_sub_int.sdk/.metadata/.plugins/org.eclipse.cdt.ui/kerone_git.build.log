@@ -1,0 +1,46 @@
+13:53:19 **** Incremental Build of configuration Default for project kerone_git ****
+make all 
+'Building file: src/vgic.cc'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -Os -g -I./cpu -I./include -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/libsrc/axidma_v9_3/src -I../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/include  -I../boards/zedboard/custom_bsp -I../boards/zedboard/custom_bsp/include -DNDEBUG -O2 -c -g3 -mfloat-abi=softfp -fdata-sections -freorder-blocks -MMD -MP -MMD -MP -MF"build/vgic.d" -MT"build/vgic.o" -o "build/vgic.o" "src/vgic.cc"
+In file included from src/vgic.cc:18:0:
+../boards/zedboard/custom_bsp/include/performance.h:51:0: warning: "PMDATA_MAX" redefined
+ #define PMDATA_MAX      PM_DATA_SIZE >> 2
+ ^
+../boards/zedboard/custom_bsp/include/performance.h:35:0: note: this is the location of the previous definition
+ #define PMDATA_MAX 0x1000
+ ^
+In file included from ./include/ec.h:22:0,
+                 from src/vgic.cc:21:
+./include/vgic.h:73:39: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+ const unsigned long ReserveIrqMask[3] {0x2000FFFF,0x00000800,0x04040000};
+                                       ^
+In file included from src/vgic.cc:21:0:
+./include/ec.h:74:76: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   vGicContext vGicState = {0, 0, 0, 0, {0,0,0},{0,0,0}, {0,0,0,0,0,0}, 0, 0};
+                                                                            ^
+./include/ec.h:135:64: warning: 'regparm' attribute directive ignored [-Wattributes]
+      static void syscall_handler (uint8) asm ("syscall_handler");
+                                                                ^
+./include/ec.h:138:51: warning: 'regparm' attribute directive ignored [-Wattributes]
+      static void irq_handler () asm ("irq_handler");
+                                                   ^
+./include/ec.h:74:76: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+   vGicContext vGicState = {0, 0, 0, 0, {0,0,0},{0,0,0}, {0,0,0,0,0,0}, 0, 0};
+                                                                            ^
+'Finished building: src/vgic.cc'
+' '
+'Building target: kerone.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -nostartfiles -n -mfloat-abi=hard -Wl,-T -Wl,./src/hypervisor.ld -L"../boards/zedboard/kerone_PR_bsp/ps7_cortexa9_0/lib" -o "kerone.elf" ./build/_exit.o ./build/decode.o ./build/demo.o ./build/ec.o ./build/exception.o ./build/init.o ./build/kalloc.o ./build/msg.o ./build/print.o ./build/ptab.o ./build/ualloc.o ./build/vec.o ./build/vfp.o ./build/vgic.o ./build/custom_bsp/custom_api.o ./build/custom_bsp/performance.o ./build/custom_bsp/private_timer.o ./build/arch/zynq/timer.o ./build/cpu/entry.o ./build/cpu/head.o ./build/cpu/shutdown.o ./build/cpu/tlb-v7.o ./build/cpu/vector.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: kerone.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size kerone.elf  |tee "kerone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  39052	   1816	20928801	20969669	13ff8c5	kerone.elf
+'Finished building: kerone.elf.size'
+' '
+
+13:53:21 Build Finished (took 2s.630ms)
+

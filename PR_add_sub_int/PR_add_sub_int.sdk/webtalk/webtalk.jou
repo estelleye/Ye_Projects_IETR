@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# 
+# Start of session at: Tue Jun 18 14:51:27 2019
+# Process ID: 8336
+# Current directory: D:/vivado_2017.1/DPR/PR_add_sub_int/PR_add_sub_int.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: D:/vivado_2017.1/DPR/PR_add_sub_int/PR_add_sub_int.sdk/webtalk/webtalk.log
+# Journal file: D:/vivado_2017.1/DPR/PR_add_sub_int/PR_add_sub_int.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

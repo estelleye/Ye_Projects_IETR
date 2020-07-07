@@ -1,0 +1,44 @@
+!SESSION 2020-03-02 08:02:12.825 -----------------------------------------------
+eclipse.buildId=2017.1
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:/vivado_2017.1/DPR/PR_add_sub_int/PR_add_sub_int.sdk
+
+This is a continuation of log file D:\vivado_2017.1\DPR\PR_add_sub_int\PR_add_sub_int.sdk\.metadata\.bak_0.log
+Created Time: 2020-03-02 08:02:22.772
+
+!ENTRY org.eclipse.ui 2 0 2020-03-02 08:02:22.773
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-03-02 08:02:22.774
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-02 08:02:45.290
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-02 08:02:45.290
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-02 08:02:45.292
+!MESSAGE XSCT Command: [enable_info_messages], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-02 08:02:45.300
+!MESSAGE XSCT command with result: [enable_info_messages], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-02 08:02:45.304
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-02 08:02:45.306
+!MESSAGE XSCT Command: [setws D:/vivado_2017.1/DPR/PR_add_sub_int/PR_add_sub_int.sdk], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-02 08:02:49.347
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-02 08:02:49.349
+!MESSAGE XSCT command with result: [setws D:/vivado_2017.1/DPR/PR_add_sub_int/PR_add_sub_int.sdk], Result: [null, ]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-02 08:02:49.400
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/vivado_2017.1/DPR/PR_add_sub_int/PR_add_sub_int.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-02 08:02:54.386
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/vivado_2017.1/DPR/PR_add_sub_int/PR_add_sub_int.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-13
